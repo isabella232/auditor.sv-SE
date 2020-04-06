@@ -5,7 +5,7 @@ seo-title: Testreferens
 title: Testreferens
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
 translation-type: tm+mt
-source-git-commit: 0c116f699b697ad010ee074ac67159a49ec09ccd
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -46,7 +46,3 @@ Följande Adobe-lösningar ingår för närvarande inte i testmomentet. Stöd f�
 * Audience Manager
 * Campaign
 * Starta
-
-## Testkategorier {#section-630181db21ef4eec9ce6a13a0482bb55}
-
-Denna provningsreferens delar upp provningarna i följande kategorier:
