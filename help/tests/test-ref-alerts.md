@@ -5,7 +5,7 @@ seo-title: Varningar
 title: Varningar
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
 translation-type: tm+mt
-source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -66,7 +66,7 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
    <td colname="col1"> 
     <draft-comment>
       CAce6db25bc8c443409f0fcc5ac9d622c3 
-    </draft-comment> <p><b>DTM - sidans nedre återanropsplacering</b> </p> <p>Bredd: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/dtm/t_add_header_fooder_code.html" format="html" scope="external"> Ytterligare information</a> </p> 
+    </draft-comment> <p><b>DTM - sidans nedre återanropsplacering</b> </p> <p>Bredd: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Ytterligare information</a> </p> 
     <draft-comment>
       TEa9df69942f404055a64262889c8b21d3 
     </draft-comment> </td> 
@@ -77,7 +77,7 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - Self-Hosted</b> </p> <p>Bredd: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/dtm/deployment.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    </draft-comment> <p><b>DTM - Self-Hosted</b> </p> <p>Bredd: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/client-side-information.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> DTM-biblioteket ligger på Adobes Akamai-instans på <span class="filepath"> assets.adobedtm.com</span>. </p> <p> Självvärdande är det rekommenderade sättet att läsa in DTM eftersom det ger bättre kontroll över webbplatsens prestanda genom cachekontroll, minskar beroenden av skript från tredje part och ger större kontroll över publiceringsprocessen. DTM-biblioteken kan hanteras via din egen webbhosting eller CDN. </p> </td> 
    <td colname="col3"> <p>Självvärdande är det rekommenderade sättet att läsa in DTM på en sida. Även om DTM-värdtjänster via Akamai CDN fungerar i de flesta fall, förbättras sidprestanda av självvärdtjänster. </p> </td> 
   </tr> 
@@ -85,7 +85,7 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Experience Cloud ID Service - använd bara en AdobeOrg</b> </p> <p>Bredd: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/mcvid/mcvid_id_request.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    </draft-comment> <p><b> Experience Cloud ID Service - använd bara en AdobeOrg</b> </p> <p>Bredd: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/intro/id-request.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p>I en normal MCID-implementering bör en enda AdobeOrg användas. </p> </td> 
    <td colname="col3"> <p>Verifiera att det finns flera AdobeOrg ID:n för den här implementeringen. </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom callback placement</b> </p> <p>Bredd: 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Ytterligare information</a> </p> 
+    </draft-comment> <p><b>Launch - pageBottom callback placement</b> </p> <p>Bredd: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Ytterligare information</a> </p> 
     <draft-comment>
       TE48c499b022f545c5bccc6f8bde169685 
     </draft-comment> </td> 
@@ -104,7 +104,7 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - Self-Hosted</b> </p> <p>Bredd: 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Komma igång med Launch</a> </p> <p><a href="https://docs.adobelaunch.com/client-side-information/asynchronous-deployment" format="https" scope="external"> Starta asynkron distribution</a> </p> </td> 
+    </draft-comment> <p><b>Launch - Self-Hosted</b> </p> <p>Bredd: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Komma igång med Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Starta asynkron distribution</a> </p> </td> 
    <td colname="col2"> <p>Startbiblioteket ligger på Adobes Akamai-instans på <span class="filepath"> assets.adobedtm.com</span>. </p> <p>Självvärdande är det rekommenderade sättet att läsa in Launch eftersom det ger bättre kontroll över webbplatsens prestanda genom cachekontroll, minskar beroenden av skript från tredje part och ger större kontroll över publiceringsprocessen. Launch-biblioteken kan hanteras via din egen webbhosting eller CDN. </p> </td> 
    <td colname="col3"> <p>Även om Launch-värdtjänster via Akamai CDN fungerar i de flesta fall rekommenderar vi att självvärdtjänster implementeras som ett första steg i att förbättra sidans prestanda. </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - ska distribueras asynkront</b> </p> <p>Bredd: 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Ytterligare information</a> </p> </td> 
+    </draft-comment> <p><b>Launch - ska distribueras asynkront</b> </p> <p>Bredd: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p>Launch ska distribueras asynkront för optimala prestanda. </p> </td> 
    <td colname="col3"> <p>Inkludera parametern async i det infogade skriptet för att säkerställa korrekt asynkron start-funktion </p> </td> 
   </tr> 
@@ -120,7 +120,7 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Mål - Innehåll i mboxDefault</b> </p> <p>Bredd: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    </draft-comment> <p><b> Mål - Innehåll i mboxDefault</b> </p> <p>Bredd: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> Innehållet ska finnas i mboxDefault när at.js används. </p> </td> 
    <td colname="col3"> <p>Kontrollera att innehållet är tillgängligt. </p> </td> 
   </tr> 
