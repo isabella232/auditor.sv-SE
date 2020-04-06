@@ -5,7 +5,7 @@ seo-title: Tagg presence
 title: Tagg presence
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -36,7 +36,7 @@ Granskaren utvärderar om taggen finns och om den finns på rätt plats i sidkod
    <td colname="col3"> <p>Implementera segmentpixeln i Advertising Cloud med Advertising Cloud Launch Extension. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Analyser - läses in i DOM</b> </p> <p>Bredd: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/" format="https" scope="external"> Ytterligare information</a> </p> </td> 
+   <td colname="col1"> <p><b>Analyser - läses in i DOM</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> Adobe Analytics-taggen kunde inte identifieras. </p> </td> 
    <td colname="col3"> <p>Installera den senaste versionen av Analytics. </p> </td> 
   </tr> 
