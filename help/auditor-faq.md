@@ -5,7 +5,10 @@ seo-title: Vanliga frågor om granskare
 title: Vanliga frågor om granskare
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
+workflow-type: tm+mt
+source-wordcount: '935'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +26,7 @@ Den här artikeln innehåller svar på vanliga frågor om Adobe Experience Platf
 * [Vilken information finns i en rapport?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [Hur användbar är informationen?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [Kan revisorn granska icke-Adobe-teknik?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [Kan jag vitlista mina IP-adresser för att tillåta skanning av sidor..](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [Kan jag godkänna mina IP-adresser för att tillåta skanning av sidor..](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Använder revisorn samma IP-intervall som observationspunkten?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## Vad är revisor? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -44,10 +47,10 @@ När du har loggat in på [https://experiencecloud.adobe.com](https://experience
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
-* Analyser
+* Analytics
 * DTM
-* Experience Cloud ID Service (tidigare Marketing Cloud ID Service)
-* Mål
+* Experience Cloud ID-tjänst (tidigare Marketing Cloud ID Service)
+* Målgrupp
 
 Följande Adobe-lösningar ingår för närvarande inte i testmomentet. Stöd för dessa lösningar planeras för framtida uppdateringar.
 
@@ -112,7 +115,7 @@ Rekommendationerna som ingår i dessa kategorier delas sedan in i tre ytterligar
 
 ## Hur användbar är informationen? {#section-9308c1ea882048b781087ae6d2eee9f0}
 
-Alla rekommendationer som ges via Auditor är avsedda att hjälpa er att vidta åtgärder för att åtgärda ett problem med er implementering av Adobe Experience Cloud-lösningar, som DTM eller Target. För att underlätta detta har revisionsteamet arbetat mycket intensivt för att ge mycket detaljerade anvisningar om vad som behöver göras där. Du kan exportera ett kalkylblad med alla skannade URL:er och alla testresultat så att du enkelt kan identifiera problemområden. Här är ett exempel på en rekommendation för en DTM-implementering:
+Alla rekommendationer som ges av Auditor är avsedda att hjälpa er att vidta åtgärder för att åtgärda ett problem med er implementering av Adobe Experience Cloud-lösningar, till exempel DTM eller Target. För att underlätta detta har revisionsteamet arbetat mycket intensivt för att ge mycket detaljerade anvisningar om vad som behöver göras där. Du kan exportera ett kalkylblad med alla skannade URL:er och alla testresultat så att du enkelt kan identifiera problemområden. Här är ett exempel på en rekommendation för en DTM-implementering:
 
 <table id="table_EE67775088344BDAA5126268072D6089"> 
  <tbody> 
@@ -124,9 +127,9 @@ Alla rekommendationer som ges via Auditor är avsedda att hjälpa er att vidta �
 
 ## Kan revisorn granska icke-Adobe-teknik? {#section-f6e73c56083b4815bbf901296038bcd4}
 
-Nej. Med ObservePoints fulla erbjudande kan kunderna dock granska och övervaka alla era marknadsföringstaggar och tekniker. Som Adobe-kund har du tillgång till ett kostnadsfritt provkonto. Gå till [ObservePoints Auditor Page](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&utm_medium=Auditor&utm_campaign=Premium)för att få tillgång till ditt provkonto.
+Nej. Med ObservePoints fulla erbjudande kan kunderna dock granska och övervaka alla era marknadsföringstaggar och tekniker. Som Adobe-kund har du tillgång till ett kostnadsfritt provkonto. Gå till [ObservePoints Auditor Page](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium)för att få tillgång till ditt provkonto.
 
-## Kan jag vitlista mina IP-adresser för att tillåta skanning av sidor som skyddas av inloggning? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Kan jag godkänna mina IP-adresser för att tillåta skanning av sidor som skyddas av inloggning? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 Den här funktionen stöds för närvarande inte utan det fullständiga ObservePoint-erbjudandet.
 
