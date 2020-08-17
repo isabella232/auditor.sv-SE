@@ -5,7 +5,10 @@ seo-title: Skapa en ny revision i revisor
 title: Skapa en ny revision i revisor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ Om du vill kan du använda länken längst ned på sidan för att få tillgång 
    Namnet kan innehålla upp till 250 tecken.
 1. (Obligatoriskt) Ange den inledande URL:en.
 
-   Protokollet krävs när du anger den första URL:en. Den första URL:en är den sida där granskningen börjar crawla. När Auditor väl har startat crawlas upp till 500 sidor och följer länkar som börjar på startwebbadressen. Mer information finns i [Inkludera och exkludera filter](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257) . Start-URL:en kan innehålla upp till 250 tecken.
+   Protokollet krävs när du anger den första URL:en. Den första URL:en är den sida där granskningen börjar crawla. När Auditor väl har startat crawlas upp till 500 sidor och följer länkar som börjar på startwebbadressen. Mer information finns i [Inkludera och exkludera filter](../create-audit/filters.md) . Start-URL:en kan innehålla upp till 250 tecken.
 
    >[!NOTE]
    >
@@ -52,7 +55,7 @@ Om du vill kan du använda länken längst ned på sidan för att få tillgång 
 
    Inkluderingsfiltren får innehålla högst 1 000 tecken per rad.
 
-   Mer information finns i [Inkludera lista](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f) .
+   Mer information finns i [Inkludera lista](../create-audit/filters.md) .
 1. Ange Exkludera filter.
 
    Uteslut lista förhindrar att URL:er granskas. Använd exakta URL:er, partiella URL:er eller reguljära uttryck, precis som i Inkludera lista.
@@ -61,7 +64,7 @@ Om du vill kan du använda länken längst ned på sidan för att få tillgång 
 
    Exkluderingsfiltren är begränsade till 1 000 tecken per rad.
 
-   Mer information finns i [Uteslut lista](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9) .
+   Mer information finns i [Uteslut lista](../create-audit/filters.md) .
 1. (Valfritt) Om du vill kan du testa filtren include och exclude och testa dina URL:er.
 
    Ange filter och URL:er och klicka sedan på **[!UICONTROL Apply]** för att köra testet.
