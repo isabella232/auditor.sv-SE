@@ -1,6 +1,9 @@
 ---
-source-git-commit: 525ab6768a5f4e3af5dfe751bd0669bf92954f92
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '281'
+ht-degree: 23%
 
 ---
 # Bidrar
@@ -20,7 +23,7 @@ Börja med att lämna in ett ärende. Befintliga committers i det här projektet
 
 ## Licensavtal för deltagare
 
-Alla bidrag från tredje part till detta projekt måste åtföljas av ett undertecknat bidragslicensavtal. Detta ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. [Underteckna vårt CLA](http://opensource.adobe.com/cla.html). Du behöver bara skicka in ett Adobe CLA en gång, så om du har skickat ett tidigare är du redo att gå!
+Alla bidrag från tredje part till detta projekt måste åtföljas av ett undertecknat bidragslicensavtal. Detta ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. [Underteckna vårt CLA](https://opensource.adobe.com/cla.html). Du behöver bara skicka ett Adobe CLA en gång, så om du har skickat ett tidigare är du redo att gå!
 
 ## Kodgranskningar
 
