@@ -5,7 +5,10 @@ seo-title: Tagg presence
 title: Tagg presence
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
 translation-type: tm+mt
-source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +22,7 @@ Granskaren utvärderar om taggen finns och om den finns på rätt plats i sidkod
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Testa </th> 
+   <th colname="col1" class="entry"> Test </th> 
    <th colname="col2" class="entry"> Kriterier </th> 
    <th colname="col3" class="entry"> Rekommendation </th> 
   </tr>
@@ -32,19 +35,19 @@ Granskaren utvärderar om taggen finns och om den finns på rätt plats i sidkod
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - segmentpixel implementerad</b> </p> <p>Bredd: 5 </p> </td> 
-   <td colname="col2"> <p> Uppgradera era pixlar i Advertising Cloud-segmentet till de nya taggar som bara används i Advertising Cloud för bilder. Om du använder de föråldrade AMO-segmenttaggarna kan data gå förlorade. </p> </td> 
-   <td colname="col3"> <p>Implementera segmentpixeln i Advertising Cloud med Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col2"> <p> Uppgradera dina Advertising Cloud-segmentpixlar till de nya Advertising Cloud-taggar som bara innehåller bilder. Om du använder de föråldrade AMO-segmenttaggarna kan data gå förlorade. </p> </td> 
+   <td colname="col3"> <p>Implementera Advertising Cloud-segmentpixeln med Advertising Cloud Launch Extension. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analyser - läses in i DOM</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p> Adobe Analytics-taggen kunde inte identifieras. </p> </td> 
+   <td colname="col2"> <p> Det gick inte att identifiera Adobe Analytics-taggen. </p> </td> 
    <td colname="col3"> <p>Installera den senaste versionen av Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> DTM - Biblioteket har lästs in</b> </p> <p>Bredd: 5 </p> <p>Ytterligare information: </p> <p> 
      <ul id="ul_7E706EBC2E4649A69732E6982E116E22"> 
       <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/en/dtm/using/admin/c-troubleshooting.html" format="html" scope="external"> DTM-felsökning</a> </li> 
-      <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Lägg till sidhuvud och sidfot</a> </li> 
+      <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Lägg till sidhuvuds- och sidfotskod</a> </li> 
      </ul> </p> </td> 
    <td colname="col2"> <p> Det gick inte att hitta ett globalt _satellitobjekt i DOM. Dynamisk tagghantering är inte installerat eller kan inte köras. </p> </td> 
    <td colname="col3"> <p>Kontrollera att DTM-biblioteket är implementerat på sidan och inte blockeras av efterföljande skriptaktiviteter. </p> </td> 
@@ -68,15 +71,15 @@ Granskaren utvärderar om taggen finns och om den finns på rätt plats i sidkod
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID Service - kodnärvaro</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p>Det gick inte att hitta Experience Cloud ID-tjänstkoden. Experience Cloud ID (MCID) rekommenderas varmt för att ni ska få ut så mycket som möjligt av era Experience Cloud-lösningar och är viktiga för ID-hantering i alla Experience Cloud-lösningar. </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID-tjänst - kodnärvaro</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+   <td colname="col2"> <p>Det gick inte att hitta Experience Cloud ID-tjänstkoden. Experience Cloud ID (MCID) rekommenderas för att du ska få ut så mycket som möjligt av dina Experience Cloud-lösningar och för att ID-hanteringen ska fungera i alla Experience Cloud-lösningar. </p> </td> 
    <td colname="col3"> <p> Installera den senaste versionen av MCID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID Service - cookie-närvaro</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID-tjänst - cookie-närvaro</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> Det gick inte att hitta <span class="codeph"> AMCV_</span> -cookien. Du måste instansiera ett besöksobjekt från <span class="codeph"> VisitorAPI.js</span> -koden. </p> </td> 
    <td colname="col3"> <p> Om det här är en DTM-implementering kontrollerar du att AdobeOrg-id:t har angetts korrekt i MCID-verktyget. </p> </td> 
   </tr> 
@@ -84,9 +87,9 @@ Granskaren utvärderar om taggen finns och om den finns på rätt plats i sidkod
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID Service - MID-värde finns</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID-tjänst - MID-värde finns</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/sv-SE/id-service/using/intro/cookies.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> MID-värdet hittades inte i <span class="codeph"> AMCV_</span> -cookien. </p> </td> 
-   <td colname="col3"> <p>Testa igen för att kontrollera om det finns någon MCID API-fördröjning. Kontakta Adobes kundtjänst om problemet kvarstår. </p> </td> 
+   <td colname="col3"> <p>Testa igen för att kontrollera om det finns någon MCID API-fördröjning. Kontakta Adobe kundtjänst om problemet kvarstår. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
