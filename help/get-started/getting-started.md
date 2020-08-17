@@ -5,7 +5,10 @@ seo-title: Komma igång
 title: Komma igång
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +25,7 @@ Första gången du använder Auditor måste du fylla i och godkänna Auditor-avt
 
 ## Kör din första sökning {#task-b211597afed343cfa238443fcf7c6041}
 
-1. Klicka på menyknappen i det övre högra hörnet av Adobe Experience Cloud-navigeringsfältet och klicka på **[!UICONTROL Activation]**.
+1. Klicka på menyknappen i det övre högra hörnet av navigeringsfältet i Adobe Experience Cloud och klicka på **[!UICONTROL Activation]**.
 
    ![](assets/activate.png)
 
@@ -44,10 +47,10 @@ Första gången du använder Auditor måste du fylla i och godkänna Auditor-avt
 
    ![](assets/config.png)
 
-   En beskrivning av alla konfigurationsalternativ finns i [Skapa en ny granskning](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d).
+   En beskrivning av alla konfigurationsalternativ finns i [Skapa en ny granskning](../create-audit/create-new-audit.md).
 1. Visa din rapport.
 
-   När du får e-postmeddelandet som talar om att sökningen är klar klickar du på länken för att [visa rapporten](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869) och börja förstå möjligheterna att förbättra implementeringen och få ut mer av dina Adobe-lösningar.
+   När du får e-postmeddelandet som talar om att sökningen är klar klickar du på länken för att [visa rapporten](../reports/scorecard.md) och börja förstå möjligheterna att förbättra implementeringen och få ut mer av Adobe-lösningarna.
 
    Du kan också klicka på granskningens namn på [revisionssidan](../get-started/audit-list.md) för att visa granskningens status och för att visa rapporten när granskningen är klar.
 
