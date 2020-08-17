@@ -5,7 +5,10 @@ seo-title: Inkludera och exkludera filter
 title: Inkludera och exkludera filter
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 0%
 
 ---
 
@@ -77,7 +80,7 @@ Standardfiltret Inkludera ger ett brett intervall för en granskning som ska cra
 
 Inkludera filter kan innehålla exakta URL:er, partiella URL:er eller reguljära uttryck. Om till exempel den inledande URL:en är [!DNL http://mysite.com]kan följande sidor skannas som standard (observera de feta tecknen):
 
-```
+```html
 http://mysite.com
 http
 <b>s</b>://mysite.com
@@ -89,9 +92,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-För komplexa URL-mönster använder du [objektets reguljära uttrycksprovare](http://regex.observepoint.com/).
-
-Se även [Vanliga reguljära uttryck för ObservePoint](https://help.observepoint.com/articles/2872116-common-regular-expressions-for-observepoint) -dokument för vanliga användningsområden för mönstermatchning.
+För komplexa URL-mönster använder du [objektets reguljära uttrycksprovare](https://regex.observepoint.com/).
 
 ## Uteslut filter {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -107,4 +108,4 @@ Klicka på **[!UICONTROL Test Advanced Filters]** när du skapar granskningen. A
 
 ## ObservePoint-dokumentation {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-Den här artikeln har utvecklats i samarbete med ObservePoint. Den senaste informationen finns i [dokumentationen](https://help.observepoint.com/articles/2872121-include-and-exclude-filters)för ObservePoint.
+Den här artikeln har utvecklats i samarbete med ObservePoint. Den senaste informationen finns i dokumentationen [för]ObservePoint (https://help.observepoint.com/).
