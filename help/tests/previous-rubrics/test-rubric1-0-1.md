@@ -1,13 +1,13 @@
 ---
-description: 'null'
-seo-description: noll
+description: Information om Adobe Auditors test
+seo-description: Information om Adobe Auditors test
 seo-title: Provningsrutin 1.0.1
 title: Provningsrutin 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2747'
 ht-degree: 6%
 
 ---
@@ -161,7 +161,7 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Advertising Cloud - Konverteringsnamn använder URL-säkra tecken</b> </p> <p>Bredd: 3 </p> </td> 
+    </draft-comment> <p><b>Advertising Cloud - Konverteringsnamn använder URL-säkra tecken</b> </p> <p>Bredd: 1 </p> </td> 
    <td colname="col2"> <p> Namn på konverteringsegenskaper får inte innehålla ett et-tecken eller frågetecken. </p> <p> Exempel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>Se till att egenskapsparametrarna för transaktioner inte innehåller ett icke-kodat et-tecken eller frågetecken. Dessa bryter URL-formatet. </p> <p> <p>Varning: Egenskapsparametrar som innehåller ett icke-kodat et-tecken eller frågetecken (till exempel: <span class="codeph"> ev_formComplete?=1</span> eller <span class="codeph"> ev_formComplete&amp;Submit=1</span>), kan resultera i dataförlust. </p> </p> </td> 
   </tr> 
@@ -201,7 +201,7 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - tredjepartstaggar läses in asynkront efter DOM-klart</b> </p> <p>Bredd: 1 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/resources/load-order.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    </draft-comment> <p><b>DTM - tredjepartstaggar läses in asynkront efter DOM-klart</b> </p> <p>Bredd: 3 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/resources/load-order.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p>För att skapa en balans mellan en bra användarupplevelse och insamling av korrekta data bör tredjepartstaggar aktiveras vid DOM ready. Detta säkerställer att dessa spårningsskript körs utan att webbplatsfunktionaliteten påverkas. </p> </td> 
    <td colname="col3"> <p>Lös det här problemet genom att justera alla regler som kör pixlar från tredje part som ska utlösas på DOM Ready. </p> </td> 
   </tr> 
