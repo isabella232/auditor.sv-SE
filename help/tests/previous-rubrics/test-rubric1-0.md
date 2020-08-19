@@ -1,13 +1,13 @@
 ---
-description: 'null'
-seo-description: noll
+description: Information om Adobe Auditors test
+seo-description: Information om Adobe Auditors test
 seo-title: Provningsrutin 0.0.8
 title: Provningsrutin 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1998'
 ht-degree: 5%
 
 ---
@@ -95,7 +95,7 @@ Granskaren utvärderar taggarna mot andra regler och rekommenderade metodtips.
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Advertising Cloud - Konverteringsnamn innehåller endast alfanumeriska tecken</b> </p> <p>Bredd: 3 </p> </td> 
+    <td colname="col1"> <p><b>Advertising Cloud - Konverteringsnamn innehåller endast alfanumeriska tecken</b> </p> <p>Bredd: 1 </p> </td> 
     <td colname="col2"> <p>Parametern <span class="codeph"> ev_conversion_property_name</span> får bara innehålla numeriska och decimala värden EXCEPT för parametern "<span class="codeph"> ev_transid</span>" ( <span class="codeph"> värdet ev_transid</span> kan innehålla text eller numeriska värden) </p> <p>Leta efter <span class="codeph"> everesttech.net</span> -pixlar som innehåller en URL-parameter som börjar med <span class="codeph"> ev_</span>. </p> <p>Exempel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
     <td colname="col3"> <p> Kontrollera att egenskapsparametrarna för transaktionen bara innehåller numeriska och decimala värden. </p> <p> <p>Varning:  Andra värdetyper kan orsaka dataförlust. </p> </p> </td> 
    </tr> 
