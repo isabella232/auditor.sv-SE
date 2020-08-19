@@ -1,21 +1,21 @@
 ---
-description: 'null'
-seo-description: 'null'
+description: Vanliga frågor och svar om Adobe Experience Platform Auditor
+seo-description: Vanliga frågor och svar om Adobe Experience Platform Auditor
 seo-title: Vanliga frågor om granskare
-title: Vanliga frågor om granskare
+title: Vanliga frågor om Adobe Experience Platform Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
 translation-type: tm+mt
-source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
+source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 7%
+source-wordcount: '954'
+ht-degree: 6%
 
 ---
 
 
 # Vanliga frågor om granskare{#auditor-faq}
 
-Den här artikeln innehåller svar på vanliga frågor om Adobe Experience Platform Auditor.
+I den här artikeln finns svar på vanliga frågor om Adobe Experience Platform Auditor.
 
 * [Vad är revisor?](auditor-faq.md#section-c4a9bc8d8eef41598c27e0951a2518e4)
 * [Är mitt företag berättigat att använda revisor?](auditor-faq.md#section-f90094050d1e44929066a942833435cf)
@@ -25,19 +25,19 @@ Den här artikeln innehåller svar på vanliga frågor om Adobe Experience Platf
 * [Hur lång tid tar en revision?](auditor-faq.md#section-5086ae27ef1f4671a9d951348654633a)
 * [Vilken information finns i en rapport?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [Hur användbar är informationen?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
-* [Kan revisorn granska icke-Adobe-teknik?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
+* [Kan revisorn granska teknik som inte hör till Adobe?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
 * [Kan jag godkänna mina IP-adresser för att tillåta skanning av sidor..](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Använder revisorn samma IP-intervall som observationspunkten?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## Vad är revisor? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
 
-Granskaren är en tjänst i Adobe Experience Cloud som har utvecklats i samarbete med ObservePoint, experter på validering av digitala implementeringar.
+Revisorn är en tjänst inom Adobe Experience Cloud som har utvecklats i samarbete med ObservePoint, experter på validering av digitala implementeringar.
 
-Med Auditor kan kunderna skanna in upp till 500 webbsidor i taget och få en rapport som visar hur de kan förbättra sina Adobe Experience Cloud-implementeringar så att de får hela värdet av sin Adobe-investering.
+Med Auditor kan kunderna skanna upp till 500 webbsidor i taget och få en rapport som visar hur de kan förbättra sina Adobe Experience Cloud-implementeringar så att de får hela värdet av sin investering i Adobe.
 
 ## Är jag berättigad att använda revisor? {#section-f90094050d1e44929066a942833435cf}
 
-Alla Adobe Experience Cloud-kundorganisationer har kostnadsfri tillgång till Auditor (från och med den 1 maj 2018). Varje användare måste ge sitt samtycke till användningsvillkoren för Adobe/ObservePoint i Adobe Experience Cloud-gränssnittet innan han eller hon kan använda funktionen. Kontakta din kontoansvarige om du vill avanmäla dig från villkoren.
+Alla Adobe Experience Cloud kundorganisationer har kostnadsfri tillgång till revisor (från och med den 1 maj 2018). Varje användare måste ge sitt samtycke till Adobe/ObservePoint-användningsvillkoren i Adobe Experience Cloud användargränssnitt innan de kan använda funktionen. Kontakta din kontoansvarige om du vill avanmäla dig från villkoren.
 
 ## Hur får jag åtkomst till revisorn? {#section-531ff85f94384831a89cbb4109549daf}
 
@@ -47,9 +47,9 @@ När du har loggat in på [https://experiencecloud.adobe.com](https://experience
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
-* Analytics
+* Analytics 
 * DTM
-* Experience Cloud ID-tjänst (tidigare Marketing Cloud ID Service)
+* Experience Cloud ID-tjänst (tidigare Marketing Cloud ID-tjänst)
 * Målgrupp
 
 Följande Adobe-lösningar ingår för närvarande inte i testmomentet. Stöd för dessa lösningar planeras för framtida uppdateringar.
@@ -93,7 +93,7 @@ Det finns många faktorer som bidrar till den tid det tar att slutföra en revis
 
 >[!NOTE]
 >
->Adobe Auditor kör en enda skanning åt gången. Fullständiga ObservePoint-konton kan köra många granskningar i följd.
+>Adobe Auditor kör en genomsökning åt gången. Fullständiga ObservePoint-konton kan köra många granskningar i följd.
 
 ## Vilken information finns i en rapport? {#section-752d6b82f6744a3182c4ce16ea6b5d3f}
 
@@ -115,7 +115,7 @@ Rekommendationerna som ingår i dessa kategorier delas sedan in i tre ytterligar
 
 ## Hur användbar är informationen? {#section-9308c1ea882048b781087ae6d2eee9f0}
 
-Alla rekommendationer som ges av Auditor är avsedda att hjälpa er att vidta åtgärder för att åtgärda ett problem med er implementering av Adobe Experience Cloud-lösningar, till exempel DTM eller Target. För att underlätta detta har revisionsteamet arbetat mycket intensivt för att ge mycket detaljerade anvisningar om vad som behöver göras där. Du kan exportera ett kalkylblad med alla skannade URL:er och alla testresultat så att du enkelt kan identifiera problemområden. Här är ett exempel på en rekommendation för en DTM-implementering:
+Alla rekommendationer som ges av revisor är avsedda att hjälpa dig att åtgärda ett problem med implementeringen av Adobe Experience Cloud-lösningar, som DTM eller Target. För att underlätta detta har revisionsteamet arbetat mycket intensivt för att ge mycket detaljerade anvisningar om vad som behöver göras där. Du kan exportera ett kalkylblad med alla skannade URL:er och alla testresultat så att du enkelt kan identifiera problemområden. Här är ett exempel på en rekommendation för en DTM-implementering:
 
 <table id="table_EE67775088344BDAA5126268072D6089"> 
  <tbody> 
@@ -125,7 +125,7 @@ Alla rekommendationer som ges av Auditor är avsedda att hjälpa er att vidta å
  </tbody> 
 </table>
 
-## Kan revisorn granska icke-Adobe-teknik? {#section-f6e73c56083b4815bbf901296038bcd4}
+## Kan revisorn granska teknik som inte hör till Adobe? {#section-f6e73c56083b4815bbf901296038bcd4}
 
 Nej. Med ObservePoints fulla erbjudande kan kunderna dock granska och övervaka alla era marknadsföringstaggar och tekniker. Som Adobe-kund har du tillgång till ett kostnadsfritt provkonto. Gå till [ObservePoints Auditor Page](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium)för att få tillgång till ditt provkonto.
 
