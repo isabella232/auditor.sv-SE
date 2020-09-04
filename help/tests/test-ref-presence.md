@@ -5,10 +5,10 @@ seo-title: Tagg presence
 title: Tagg presence
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 6%
+source-wordcount: '935'
+ht-degree: 5%
 
 ---
 
@@ -69,65 +69,65 @@ Granskaren utvärderar om taggen finns och om den finns på rätt plats i sidkod
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID-tjänst - kodnärvaro</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b>Experience Cloud ID-tjänst - kodnärvaro</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p>Det gick inte att hitta Experience Cloud ID-tjänstkoden. Experience Cloud ID (MCID) rekommenderas för att du ska få ut så mycket som möjligt av dina Experience Cloud-lösningar och för att ID-hanteringen ska fungera i alla Experience Cloud-lösningar. </p> </td> 
    <td colname="col3"> <p> Installera den senaste versionen av MCID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID-tjänst - cookie-närvaro</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b>Experience Cloud ID-tjänst - cookie-närvaro</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> Det gick inte att hitta <span class="codeph"> AMCV_</span> -cookien. Du måste instansiera ett besöksobjekt från <span class="codeph"> VisitorAPI.js</span> -koden. </p> </td> 
    <td colname="col3"> <p> Om det här är en DTM-implementering kontrollerar du att AdobeOrg-id:t har angetts korrekt i MCID-verktyget. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID-tjänst - MID-värde finns</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/sv-SE/id-service/using/intro/cookies.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b>Experience Cloud ID-tjänst - MID-värde finns</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/sv-SE/id-service/using/intro/cookies.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> MID-värdet hittades inte i <span class="codeph"> AMCV_</span> -cookien. </p> </td> 
    <td colname="col3"> <p>Testa igen för att kontrollera om det finns någon MCID API-fördröjning. Kontakta Adobe kundtjänst om problemet kvarstår. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b> Starta - Biblioteket har lästs in</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b> Starta - Biblioteket har lästs in</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> Det gick inte att hitta ett globalt _satellitobjekt i DOM. Startprogrammet är antingen inte installerat eller kan inte köras. </p> </td> 
    <td colname="col3"> <p>Kontrollera att startbiblioteket är implementerat på sidan och inte blockeras av efterföljande skriptaktiviteter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - Not have multiple embed scripts</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b>Launch - Not have multiple embed scripts</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p>Det får inte finnas flera inbäddade skript inlästa på sidan. Produktionssajter ska bara läsa in ett startbibliotek. </p> </td> 
    <td colname="col3"> <p>Kontrollera att det bara är produktionsbiblioteket som läses in på sidan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom-återanrop finns i &lt;body&gt;</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b>Launch - pageBottom-återanrop finns i &lt;body&gt;</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> Det gick inte att hitta återanropet <span class="codeph"> _satellit.pageBottom()</span> i sidans <span class="codeph"> &lt;body&gt;</span> , vilket krävs av Launch. </p> <p>Det här testet misslyckas om <span class="codeph"> pageBottom- </span>anropet inte hittas alls på sidan, eller om det finns i <span class="codeph"> &lt;head&gt;</span> -taggen (eller någon annan oväntad plats). Det skickas bara om <span class="codeph"> pageBottom</span> hittas någonstans i <span class="codeph"> &lt;body&gt;</span> -taggen. Om den inte finns på sidan alls fungerar den inte och de andra två <span class="codeph"> pageBottom</span> -testerna misslyckas också. </p> </td> 
    <td colname="col3"> <p>Lägg till det infogade skriptet omedelbart före den avslutande <span class="codeph"> &lt;/body&gt;</span> -taggen för att säkerställa rätt startfunktion. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom-återanrop ska inte finnas när den distribueras asynkront</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b>Launch - pageBottom-återanrop ska inte finnas när den distribueras asynkront</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p>Återanropet <span class="codeph"> _satellit.pageBottom()</span> hittades på sidan, vilket inte bör vara fallet när Launch distribueras asynkront. </p> </td> 
    <td colname="col3"> <p>Ta bort skriptet<span class="codeph"> _satellit.pageBottom()</span> för att aktivera rätt startfunktioner. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b> Mål - kod finns</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b> Mål - kod finns</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p>Målet ska definieras i DOM. </p> </td> 
    <td colname="col3"> <p>Installera den senaste versionen av Target (at.js). </p> </td> 
   </tr> 
