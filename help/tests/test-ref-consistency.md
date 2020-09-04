@@ -5,10 +5,10 @@ seo-title: Konsekvens för taggar
 title: Konsekvens för taggar
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 10%
+source-wordcount: '113'
+ht-degree: 9%
 
 ---
 
@@ -30,9 +30,9 @@ Granskarens konsekvenskontroll söker efter inkonsekvenser på alla skannade sid
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Analyser - Konsekvent kodversion </b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b>Analyser - Konsekvent kodversion </b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> Mer än en version av Analytics-koden hittades. </p> </td> 
    <td colname="col3"> <p>Ersätt alla instanser av Analytics med den aktuella versionen. </p> </td> 
   </tr> 
