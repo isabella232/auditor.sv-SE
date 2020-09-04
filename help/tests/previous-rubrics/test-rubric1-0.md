@@ -5,10 +5,10 @@ seo-title: Provningsrutin 0.0.8
 title: Provningsrutin 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
 translation-type: tm+mt
-source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
 workflow-type: tm+mt
-source-wordcount: '1998'
-ht-degree: 5%
+source-wordcount: '1983'
+ht-degree: 4%
 
 ---
 
@@ -58,9 +58,9 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - sidans nedre återanropsplacering</b> </p> <p>Bredd: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Ytterligare information</a> </p> 
-     <draft-comment>
+     <!--
        TEa9df69942f404055a64262889c8b21d3 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Dynamisk tagghantering kräver<span class="codeph"> funktionen _satellit.pageBottom()</span> . </p> <p>Det är bäst att använda taggen som den <i>sista</i> taggen i <span class="codeph"> &lt;body&gt;</span>. Om den hittas i <span class="codeph"> &lt;body&gt;</span> -taggen har den en chans att fungera, men eftersom det inte är en bra metod kan den fungera felaktigt eller med oväntade eller oönskade resultat. </p> </td> 
     <td colname="col3"> <p>Lägg till det infogade skriptet omedelbart före den avslutande <span class="codeph"> &lt;/body&gt;</span> -taggen för att säkerställa korrekt DTM-funktionalitet. </p> </td> 
    </tr> 
@@ -120,7 +120,7 @@ Granskaren utvärderar taggarna mot andra regler och rekommenderade metodtips.
     <td colname="col3"> <p>Kontrollera att det bara finns en Analytics-tagg på sidan. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - Senaste versionen</b> </p> <p>Bredd: 3 </p> <p><a href="https://docs.adobe.com/content/help/sv-SE/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - Senaste versionen</b> </p> <p>Bredd: 1 </p> <p><a href="https://docs.adobe.com/content/help/sv-SE/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
     <td colname="col2"> <p> Dina sidor kör inte den senaste versionen av kodbiblioteket för Analytics. Kodbibliotek som används av Experience Cloud-teknik uppdateras och ändras ständigt för att dra nytta av prestandaförbättringar och tillhandahålla de senaste funktionerna. Returnerar 0 när ingen analyskod finns på webbsidan. </p> </td>       
     <td colname="col3"> <p>Installera den senaste versionen av Analytics-biblioteket. </p> </td> 
    </tr> 
@@ -255,9 +255,9 @@ Granskaren utvärderar om taggen finns, om den finns på rätt plats i sidkoden 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b> Mål - Biblioteket har lästs in i &lt;head&gt;</b> </p> <p>Bredd: 4 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Ytterligare information</a> </p> 
-     <draft-comment>
+     <!--
        TE61c380082a4b4706b28a84aa047599a7 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Målbiblioteket ska läsas in i taggen <span class="codeph"> &lt;head&gt;</span> . </p> </td> 
     <td colname="col3"> <p> Kontrollera att målbiblioteket har lästs in i <span class="codeph"> &lt;head&gt;</span> -taggen. </p> </td> 
    </tr> 
