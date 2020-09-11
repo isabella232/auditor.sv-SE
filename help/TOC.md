@@ -1,16 +1,20 @@
 ---
 cloud: experience-cloud
 product: auditor
-sub-product: auditor
+sub-product: revisor
 audience: end-user
-user-guide-title: Experience Platform Auditor Help
+user-guide-title: Hjälp om Experience Platform Auditor
+breadcrumb-title: Auditor Guide
 translation-type: tm+mt
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+source-git-commit: 65cda335ae83c5a49cde06f54570bfac0ec88b32
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 14%
 
 ---
 
 
-# Hjälp för Experience Platform Auditor {#using}
+# Hjälp om Experience Platform Auditor {#using}
 
 + [Översikt](overview.md)
 + Komma igång {#get-started}
@@ -28,7 +32,7 @@ source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
    + [Tagg presence](tests/test-ref-presence.md)
    + [Konsekvens för taggar](tests/test-ref-consistency.md)
    + [Konfiguration](tests/test-ref-cfg.md)
-   + [Varningar](tests/test-ref-alerts.md)
+   + [Larm](tests/test-ref-alerts.md)
    + Föregående provkrusningar{#previous-rubrics}
       + [Provningsrutin 1.0.1](tests/previous-rubrics/test-rubric1-0-1.md)
       + [Provningsrutin 0.0.8](tests/previous-rubrics/test-rubric1-0.md)
