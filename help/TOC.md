@@ -8,10 +8,10 @@ user-guide-description: Generate a report that grades your Adobe Experience Clou
 breadcrumb-title: Auditor Guide
 breadcrumb-url: /docs/auditor/using/overview.html
 translation-type: tm+mt
-source-git-commit: 4f25203c2c6df52a7bee18a63598a9ca0b2ea337
+source-git-commit: eff790431a58c832b299c6d58573d74b5b8dc50a
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 14%
+source-wordcount: '53'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 14%
 + [Översikt](overview.md)
 + Komma igång {#get-started}
    + [Komma igång](get-started/getting-started.md)
-   + [Videofilmer om granskare](get-started/videos.md)
    + [Sida för granskningslista](get-started/audit-list.md)
 + Skapa en granskning {#create-audit}
    + [Skapa en ny granskning](create-audit/create-new-audit.md)
