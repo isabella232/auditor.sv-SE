@@ -5,7 +5,7 @@ seo-title: Inkludera och exkludera filter
 title: Inkludera och exkludera filter
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Inkludera filter och Uteslut filter ger riktlinjer för revisioner. Genom att l�
 
 Genom att använda Inkludera filter, Uteslut filter eller en kombination av båda, får du instruktioner om vilka länkar en granskning kan crawla.
 
-Alla objekt i fältet Inkludera filter begränsar sökningen till endast de sidor som matchar det objektet. Alla objekt i fältet Uteslut filter förhindrar att sidor som matchar det objektet skannas.
+Alla objekt i [!UICONTROL Include Filters] fältet begränsar sökningen till de sidor som matchar det objektet. Alla objekt i ett [!UICONTROL Exclude Filters] fält förhindrar att sidor som matchar det objektet skannas.
 
 Filtren Inkludera och Uteslut kan vara fullständiga URL:er, partiella URL:er eller reguljära uttryck som matchar en giltig sida.
 
@@ -53,7 +53,7 @@ Filtren Inkludera och Uteslut kan vara fullständiga URL:er, partiella URL:er el
 
 ## Startar URL {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-Granskaren behöver en enda sida för den inledande URL:en. Start-URL:en besöks alltid före andra URL:er. Alla länkar som hittas från startsidan kan besökas, med förbehåll för filtren Inkludera och Uteslut. Om ett Exkludera-objekt matchar en Start-URL ignoreras det.
+Adobe Experience Platform Auditor kräver en enda sida för Start-URL:en. Start-URL:en besöks alltid före andra URL:er. Alla länkar som hittas från startsidan kan besökas, med förbehåll för filtren Inkludera och Uteslut. Om ett Exkludera-objekt matchar en Start-URL ignoreras det.
 
 ## Inkludera filter {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -74,11 +74,11 @@ Som standard genomsöks alla underdomäner till den första URL:en. Om du inte u
 
 `^https?://([^/:\?]*\.)?mysite.com`
 
-Detta gör att länkar som finns på sidan Start-URL kan besökas. Den matchar alla sidor på alla underdomäner från Start-URL:en.
+Detta gör att alla länkar på startwebbsidan kan besökas. Den matchar alla sidor på alla underdomäner från Start-URL:en.
 
-Standardfiltret Inkludera ger ett brett intervall för en granskning som ska crawlas. Om du vill gå till vissa avsnitt eller sidor anger du specifika anvisningar för granskningen genom att lägga till filter i den här rutan. I så fall ska du ersätta standardvärdet med de kataloger som du vill att granskningen ska söka igenom. Du kan också använda filter för att utföra domänövergripande granskning där du måste starta granskningen på en domän och avsluta på en annan. Skriv in de domäner du vill gå igenom. Om du vill att en Include-filter-URL ska hittas måste den identifieras på en reviderad sida.
+Standardfiltret Inkludera ger ett brett intervall för en granskning som ska crawlas. Om du vill gå till vissa avsnitt eller sidor anger du specifika anvisningar för granskningen genom att lägga till filter i den här rutan. I så fall ska du ersätta standardvärdet med de kataloger som du vill att granskningen ska söka igenom. Du kan också använda Inkludera filter för att utföra domänövergripande granskning där du måste starta granskningen på en domän och avsluta på en annan. Skriv in de domäner du vill gå igenom. För att du ska kunna hitta eventuella inkluderingsfilter-URL:er måste de identifieras på en reviderad sida.
 
-Inkludera filter kan innehålla exakta URL:er, partiella URL:er eller reguljära uttryck. Om till exempel den inledande URL:en är [!DNL http://mysite.com]kan följande sidor skannas som standard (observera de feta tecknen):
+Filtren Include kan innehålla exakta URL:er, partiella URL:er eller reguljära uttryck. Om till exempel den inledande URL:en är [!DNL http://mysite.com]kan följande sidor skannas som standard (observera de feta tecknen):
 
 ```html
 http://mysite.com
@@ -100,7 +100,7 @@ Filtren Uteslut förhindrar att URL:er granskas. Du kan använda exakta URL:er, 
 
 ## Testfilter och URL:er {#section-3cfa125b1756411395a64701e128efa0}
 
-Du kan testa dina filter och URL:er i Granskare.
+Du kan testa dina filter och URL:er i plattformsgranskaren.
 
 Klicka på **[!UICONTROL Test Advanced Filters]** när du skapar granskningen. Ange filter och URL:er och klicka sedan på **[!UICONTROL Apply]**.
 
