@@ -1,14 +1,14 @@
 ---
-description: Kom igång med Auditor
-seo-description: Kom igång med Auditor
+description: Kom igång med Adobe Experience Platform Auditor
+seo-description: Kom igång med Adobe Experience Platform Auditor
 seo-title: Komma igång
 title: Komma igång
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 12%
+source-wordcount: '235'
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-Första gången du använder Auditor måste du fylla i och godkänna Auditor-avtalet. Revisorn har utvecklats som ett samarbete mellan Adobe och ObservePoint. Granskarna får använda begränsad ObservePoint-funktionalitet utan extra kostnad. Om du vill använda Granskare måste du välja att få kommunicera från ObservePoint.
+Första gången du använder [!DNL Adobe Experience Platform Auditor]måste du slutföra och godkänna [!DNL Platform Auditor] avtalet. [!DNL Platform Auditor] har utvecklats som en samarbetsinsats mellan [!DNL Adobe] och [!DNL ObservePoint]. Användare av plattformsgranskare kan använda begränsad ObservePoint-funktionalitet utan extra kostnad. Om du vill använda plattformsgranskaren måste du välja att få kommunicera från ObservePoint.
 
 ## Kör din första sökning {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ Första gången du använder Auditor måste du fylla i och godkänna Auditor-avt
 
    ![](assets/activate.png)
 
-1. Välj Granskare och godkänn användningsvillkoren.
+1. Välj **[!UICONTROL Auditor]** och godkänn användningsvillkoren.
 
-   På sidan Auditor får du en kontrollpanel med tidigare sökningar tillsammans med alternativet att köra en ny skanning.
+   På sidan Platform Auditor får du en kontrollpanel med tidigare sökningar tillsammans med alternativet att köra en ny skanning.
 
    ![](assets/home.png)
 
