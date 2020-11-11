@@ -1,13 +1,13 @@
 ---
-description: Skapa en ny revision i revisor
-seo-description: Skapa en ny revision i revisor
-seo-title: Skapa en ny revision i revisor
-title: Skapa en ny revision i revisor
+description: Skapa en ny revision i Adobe Experience Platform Auditor
+seo-description: Skapa en ny revision i Adobe Experience Platform Auditor
+seo-title: Skapa en ny revision i Adobe Experience Platform Auditor
+title: Skapa en ny revision i Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Om du vill kan du använda länken längst ned på sidan för att få tillgång 
    Namnet kan innehålla upp till 250 tecken.
 1. (Obligatoriskt) Ange den inledande URL:en.
 
-   Protokollet krävs när du anger den första URL:en. Den första URL:en är den sida där granskningen börjar crawla. När Auditor väl har startat crawlas upp till 500 sidor och följer länkar som börjar på startwebbadressen. Mer information finns i [Inkludera och exkludera filter](../create-audit/filters.md) . Start-URL:en kan innehålla upp till 250 tecken.
+   Protokollet krävs när du anger den första URL:en. Den första URL:en är den sida där granskningen börjar crawla. När Adobe Experience Platform Auditor väl har startat crawlas upp till 500 sidor efter länkar som börjar på startwebbadressen. Mer information finns i [Inkludera och exkludera filter](../create-audit/filters.md) . Start-URL:en kan innehålla upp till 250 tecken.
 
    >[!NOTE]
    >
@@ -43,22 +43,23 @@ Om du vill kan du använda länken längst ned på sidan för att få tillgång 
    Du kan ange flera e-postmeddelanden genom att separera varje adress med ett kommatecken. Begäraren meddelas som standard. E-postadresser valideras i realtid. Om du anger en ogiltig adress visas ett meddelande på skärmen.
 
    Varje e-postmeddelande får innehålla högst 250 tecken, inklusive domänslutet (till exempel .com).
-1. Ange Inkludera filter.
 
-   Det här fältet kan innehålla exakta URL:er, partiella URL:er eller reguljära uttryck. Använd det här fältet för kriterier som du vill att alla URL:er ska matcha. Alla crawlade URL:er som inte matchar villkoren för Inkludera filter inkluderas inte i granskningsresultaten.
+1. Ange [!UICONTROL Include Filters].
+
+   Det här fältet kan innehålla exakta URL:er, partiella URL:er eller reguljära uttryck. Använd det här fältet för kriterier som du vill att alla URL:er ska matcha. Alla crawlade URL:er som inte uppfyller villkoren [!UICONTROL Include Filter] inkluderas inte i granskningsresultaten.
 
    Du kan ange kataloger som du vill att granskningen ska söka igenom. Eller så kan du utföra granskning över domäner eller självrefererande, där du måste starta granskningen på en domän och avsluta på en annan. Skriv in de domäner du vill gå igenom; för komplexa URL-mönster, använd ett reguljärt uttryck.
 
    >[!NOTE]
    >
-   >Om du inkluderar en sida i filtren, men den inte är ansluten till din första URL, eller om Auditor skannar 500 sidor innan den når den sidan, skannas inte sidan och inkluderas inte i testresultaten.
+   >Om du inkluderar en sida i filtren, men den inte är ansluten till din första URL, eller om Platform Auditor skannar 500 sidor innan den når den sidan, skannas inte sidan och inkluderas inte i testresultaten.
 
    Inkluderingsfiltren får innehålla högst 1 000 tecken per rad.
 
    Mer information finns i [Inkludera lista](../create-audit/filters.md) .
 1. Ange Exkludera filter.
 
-   Uteslut lista förhindrar att URL:er granskas. Använd exakta URL:er, partiella URL:er eller reguljära uttryck, precis som i Inkludera lista.
+   Detta [!UICONTROL Exclude List] förhindrar att URL:er granskas. Använd exakta URL:er, partiella URL:er eller reguljära uttryck, precis som i [!UICONTROL Include List]dialogrutan.
 
    En vanlig metod är att utesluta en utloggningslänk om granskningen har en användarsession (till exempel: `/logout`, vilket innebär en URL som innehåller strängen `/logout`).
 
