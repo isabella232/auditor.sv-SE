@@ -1,23 +1,23 @@
 ---
-description: Den här referensen ger mer information om de tester som Auditor utför för att se om taggen är konsekvent.
-seo-description: Den här referensen ger mer information om de tester som Auditor utför för att se om taggen är konsekvent.
+description: Den här referensen ger mer information om de tester som Adobe Experience Platform Auditor utför för att få en enhetlig tagg.
+seo-description: Den här referensen ger mer information om de tester som Adobe Experience Platform Auditor utför för att få en enhetlig tagg.
 seo-title: Konsekvens för taggar
 title: Konsekvens för taggar
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
 translation-type: tm+mt
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 9%
+source-wordcount: '123'
+ht-degree: 8%
 
 ---
 
 
 # Konsekvens för taggar
 
-Den här referensen ger mer information om de tester som Auditor utför för att se om taggen är konsekvent.
+Den här referensen ger mer information om de tester som Adobe Experience Platform Auditor utför för att få en enhetlig tagg.
 
-Granskarens konsekvenskontroll söker efter inkonsekvenser på alla skannade sidor. Detta är värden eller konfigurationer som ska vara desamma på alla sidor på webbplatsen för att säkerställa korrekt datainsamling.
+Plattformsgranskarens konsekvenskonstester söker efter inkonsekvenser på alla skannade sidor. Detta är värden eller konfigurationer som ska vara desamma på alla sidor på webbplatsen för att säkerställa korrekt datainsamling.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
