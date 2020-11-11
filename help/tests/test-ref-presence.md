@@ -1,13 +1,13 @@
 ---
-description: Den här referensen ger mer information om testerna som granskaren utför för att se om det finns taggar.
-seo-description: Den här referensen ger mer information om testerna som granskaren utför för att se om det finns taggar.
+description: Den här referensen innehåller mer information om de tester som Adobe Experience Platform Auditor utför för att kontrollera om taggar finns.
+seo-description: Den här referensen innehåller mer information om de tester som Adobe Experience Platform Auditor utför för att kontrollera om taggar finns.
 seo-title: Tagg presence
 title: Tagg presence
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
 translation-type: tm+mt
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '958'
 ht-degree: 5%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # Tagg presence
 
-Den här referensen ger mer information om testerna som granskaren utför för att se om det finns taggar.
+Den här referensen innehåller mer information om de tester som Adobe Experience Platform Auditor utför för att kontrollera om taggar finns.
 
-Granskaren utvärderar om taggen finns och om den finns på rätt plats i sidkoden.
+Plattformsgranskaren utvärderar om taggen finns och om den finns på rätt plats i sidkoden.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -31,12 +31,12 @@ Granskaren utvärderar om taggen finns och om den finns på rätt plats i sidkod
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - kodnärvaro</b> </p> <p>Bredd: 5 </p> </td> 
    <td colname="col2"> <p> Advertising Cloud-taggen är inte tillgänglig i DOM. </p> </td> 
-   <td colname="col3"> <p>Implementera taggen Advertising Cloud med Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Implementera taggen Advertising Cloud med tillägget Advertising Cloud för Adobe Experience Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - segmentpixel implementerad</b> </p> <p>Bredd: 5 </p> </td> 
    <td colname="col2"> <p> Uppgradera dina Advertising Cloud-segmentpixlar till de nya Advertising Cloud-taggar som bara innehåller bilder. Om du använder de föråldrade AMO-segmenttaggarna kan data gå förlorade. </p> </td> 
-   <td colname="col3"> <p>Implementera Advertising Cloud-segmentpixeln med Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Implementera Advertising Cloud-segmentpixeln med Advertising Cloud-tillägget för Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analyser - läses in i DOM</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
@@ -96,15 +96,15 @@ Granskaren utvärderar om taggen finns och om den finns på rätt plats i sidkod
     <!--
       1.0.5 
     --> <p><b> Starta - Biblioteket har lästs in</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p> Det gick inte att hitta ett globalt _satellitobjekt i DOM. Startprogrammet är antingen inte installerat eller kan inte köras. </p> </td> 
-   <td colname="col3"> <p>Kontrollera att startbiblioteket är implementerat på sidan och inte blockeras av efterföljande skriptaktiviteter. </p> </td> 
+   <td colname="col2"> <p> Det gick inte att hitta ett globalt _satellitobjekt i DOM. Platform Launch är inte installerat eller kan inte köras. </p> </td> 
+   <td colname="col3"> <p>Kontrollera att plattformsstartbiblioteket är implementerat på sidan och inte blockeras av efterföljande skriptaktiviteter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - Not have multiple embed scripts</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p>Det får inte finnas flera inbäddade skript inlästa på sidan. Produktionssajter ska bara läsa in ett startbibliotek. </p> </td> 
+   <td colname="col2"> <p>Det får inte finnas flera inbäddade skript inlästa på sidan. Produktionssajter ska bara läsa in ett plattformsbibliotek. </p> </td> 
    <td colname="col3"> <p>Kontrollera att det bara är produktionsbiblioteket som läses in på sidan. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ Granskaren utvärderar om taggen finns och om den finns på rätt plats i sidkod
     <!--
       1.0.5 
     --> <p><b>Launch - pageBottom-återanrop finns i &lt;body&gt;</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p> Det gick inte att hitta återanropet <span class="codeph"> _satellit.pageBottom()</span> i sidans <span class="codeph"> &lt;body&gt;</span> , vilket krävs av Launch. </p> <p>Det här testet misslyckas om <span class="codeph"> pageBottom- </span>anropet inte hittas alls på sidan, eller om det finns i <span class="codeph"> &lt;head&gt;</span> -taggen (eller någon annan oväntad plats). Det skickas bara om <span class="codeph"> pageBottom</span> hittas någonstans i <span class="codeph"> &lt;body&gt;</span> -taggen. Om den inte finns på sidan alls fungerar den inte och de andra två <span class="codeph"> pageBottom</span> -testerna misslyckas också. </p> </td> 
-   <td colname="col3"> <p>Lägg till det infogade skriptet omedelbart före den avslutande <span class="codeph"> &lt;/body&gt;</span> -taggen för att säkerställa rätt startfunktion. </p> </td> 
+   <td colname="col2"> <p> Det gick inte att hitta återanropet <span class="codeph"> _satellit.pageBottom()</span> i <span class="codeph"> &lt;body&gt;</span> på sidan, vilket krävs av Platform Launch. </p> <p>Det här testet misslyckas om <span class="codeph"> pageBottom- </span>anropet inte hittas alls på sidan, eller om det finns i <span class="codeph"> &lt;head&gt;</span> -taggen (eller någon annan oväntad plats). Det skickas bara om <span class="codeph"> pageBottom</span> hittas någonstans i <span class="codeph"> &lt;body&gt;</span> -taggen. Om den inte finns på sidan alls fungerar den inte och de andra två <span class="codeph"> pageBottom</span> -testerna misslyckas också. </p> </td> 
+   <td colname="col3"> <p>Lägg till det infogade skriptet omedelbart före den avslutande <span class="codeph"> &lt;/body&gt;</span> -taggen för att säkerställa rätt plattformsstartfunktion. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - pageBottom-återanrop ska inte finnas när den distribueras asynkront</b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p>Återanropet <span class="codeph"> _satellit.pageBottom()</span> hittades på sidan, vilket inte bör vara fallet när Launch distribueras asynkront. </p> </td> 
-   <td colname="col3"> <p>Ta bort skriptet<span class="codeph"> _satellit.pageBottom()</span> för att aktivera rätt startfunktioner. </p> </td> 
+   <td colname="col2"> <p>Callback-funktionen <span class="codeph"> _satellit.pageBottom()</span> hittades på sidan, vilket inte bör vara fallet när Platform Launch distribueras asynkront. </p> </td> 
+   <td colname="col3"> <p>Ta bort skriptet<span class="codeph"> _satellit.pageBottom()</span> för att aktivera rätt startfunktioner för plattformen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
