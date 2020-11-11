@@ -1,13 +1,13 @@
 ---
-description: Den här referensen ger mer information om de tester som granskaren utför för konfiguration.
-seo-description: Den här referensen ger mer information om de tester som granskaren utför för konfiguration.
+description: Den här referensen innehåller mer information om de tester som Adobe Experience Platform Auditor utför för konfiguration.
+seo-description: Den här referensen innehåller mer information om de tester som Adobe Experience Platform Auditor utför för konfiguration.
 seo-title: Konfiguration
 title: Konfiguration
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
 translation-type: tm+mt
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '846'
 ht-degree: 5%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # Konfiguration
 
-Den här referensen ger mer information om de tester som granskaren utför för konfiguration.
+Den här referensen innehåller mer information om de tester som Adobe Experience Platform Auditor utför för konfiguration.
 
-Konfigurationstester söker efter specifika inställningar, värden eller potentiella konflikter i implementeringen. Granskaren utvärderar taggarna mot andra regler och rekommenderade metodtips.
+Konfigurationstester söker efter specifika inställningar, värden eller potentiella konflikter i implementeringen. Platform Auditor utvärderar taggarna mot andra regler och rekommenderade metodtips.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -40,7 +40,7 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Advertising Cloud - Konverteringsnamn använder URL-säkra tecken</b> </p> <p>Bredd: 3 </p> </td> 
+    --> <p><b>Advertising Cloud - Konverteringsnamn använder URL-säkra tecken</b> </p> <p>Bredd: 1 </p> </td> 
    <td colname="col2"> <p> Namn på konverteringsegenskaper får inte innehålla ett et-tecken eller frågetecken. </p> <p> Exempel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>Se till att egenskapsparametrarna för transaktioner inte innehåller ett icke-kodat et-tecken eller frågetecken. Dessa bryter URL-formatet. </p> <p> <p>Varning: Egenskapsparametrar som innehåller ett icke-kodat et-tecken eller frågetecken (till exempel: <span class="codeph"> ev_formComplete?=1</span> eller <span class="codeph"> ev_formComplete&amp;Submit=1</span>), kan resultera i dataförlust. </p> </p> </td> 
   </tr> 
@@ -48,7 +48,7 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Advertising Cloud - Transaktions-ID har implementerats korrekt</b> </p> <p>Bredd: 3 </p> </td> 
+    --> <p><b>Advertising Cloud - Transaktions-ID har implementerats korrekt</b> </p> <p>Bredd: 1 </p> </td> 
    <td colname="col2"> <p> Egenskapsnamnet <span class="codeph"> ev_transid=</span> får inte vara tomt. </p> <p>Exempel: </p> <p> <span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>Egenskapsnamnet <span class="codeph"> ev_transid=</span> får inte lämnas utan ett värde (<span class="codeph"> ev_transid=</span>). Om detta lämnas utan ett värde kan transaktionsdata gå förlorade. Tilldela ett värde till <span class="codeph"> ev_transid=</span> eller ta bort parametern från pixeln. </p> </td> 
   </tr> 
@@ -80,7 +80,7 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>DTM - tredjepartstaggar läses in asynkront efter DOM-klart</b> </p> <p>Bredd: 3 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/resources/load-order.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b>DTM - tredjepartstaggar läses in asynkront efter DOM-klart</b> </p> <p>Bredd: 1 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/resources/load-order.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p>För att skapa en balans mellan en bra användarupplevelse och insamling av korrekta data bör tredjepartstaggar aktiveras vid DOM ready. Detta säkerställer att dessa spårningsskript körs utan att webbplatsfunktionaliteten påverkas. </p> </td> 
    <td colname="col3"> <p>Lös det här problemet genom att justera alla regler som kör pixlar från tredje part som ska utlösas på DOM Ready. </p> </td> 
   </tr> 
@@ -97,8 +97,8 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
     <!--
       1.0.1 
     --> <p><b>Launch - Senaste version</b> </p> <p>Bredd: 2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p>Dessa sidor kör inte den senaste versionen av Launch-kodbiblioteket (Turbine). Kodbibliotek som används av Experience Cloud-teknik uppdateras och ändras ständigt för att dra nytta av prestandaförbättringar och tillhandahålla de senaste funktionerna. </p> </td> 
-   <td colname="col3"> <p> Uppdatera Launch-biblioteket genom att återskapa och publicera Launch-biblioteket. </p> </td> 
+   <td colname="col2"> <p>De här sidorna kör inte den senaste versionen av kodbiblioteket för plattformsstart (Turbine). Kodbibliotek som används av Experience Cloud-teknik uppdateras och ändras ständigt för att dra nytta av prestandaförbättringar och tillhandahålla de senaste funktionerna. </p> </td> 
+   <td colname="col3"> <p> Uppdatera plattformsstartbiblioteket genom att återskapa och publicera plattformsstartbiblioteket. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
