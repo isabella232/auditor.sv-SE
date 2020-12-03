@@ -95,7 +95,7 @@ Platform Auditor utvärderar taggarna mot andra regler och rekommenderade metodt
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Advertising Cloud - Konverteringsnamn innehåller endast alfanumeriska tecken</b> </p> <p>Bredd: 1 </p> </td> 
+    <td colname="col1"> <p><b>Advertising Cloud - Konverteringsnamn innehåller endast alfanumeriska tecken</b> </p> <p>Bredd: 3 </p> </td> 
     <td colname="col2"> <p>Parametern <span class="codeph"> ev_conversion_property_name</span> får bara innehålla numeriska och decimala värden EXCEPT för parametern "<span class="codeph"> ev_transid</span>" ( <span class="codeph"> värdet ev_transid</span> kan innehålla text eller numeriska värden) </p> <p>Leta efter <span class="codeph"> everesttech.net</span> -pixlar som innehåller en URL-parameter som börjar med <span class="codeph"> ev_</span>. </p> <p>Exempel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
     <td colname="col3"> <p> Kontrollera att egenskapsparametrarna för transaktionen bara innehåller numeriska och decimala värden. </p> <p> <p>Varning:  Andra värdetyper kan orsaka dataförlust. </p> </p> </td> 
    </tr> 
@@ -105,7 +105,7 @@ Platform Auditor utvärderar taggarna mot andra regler och rekommenderade metodt
     <td colname="col3"> <p>Se till att egenskapsparametrarna för transaktioner inte innehåller ett icke-kodat et-tecken eller frågetecken. Dessa bryter URL-formatet. </p> <p> <p>Varning: Egenskapsparametrar som innehåller ett icke-kodat et-tecken eller frågetecken (till exempel: <span class="codeph"> ev_formComplete?=1</span> eller <span class="codeph"> ev_formComplete&amp;Submit=1</span>), kan resultera i dataförlust. </p> </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Advertising Cloud - Transaktions-ID har implementerats korrekt</b> </p> <p>Bredd: 3 </p> </td> 
+    <td colname="col1"> <p><b>Advertising Cloud - Transaktions-ID har implementerats korrekt</b> </p> <p>Bredd: 1 </p> </td> 
     <td colname="col2"> <p> Egenskapsnamnet <span class="codeph"> ev_transid=</span> får inte vara tomt. </p> <p>Exempel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
     <td colname="col3"> <p>Egenskapsnamnet <span class="codeph"> ev_transid=</span> får inte lämnas utan ett värde (<span class="codeph"> ev_transid=</span>). Om detta lämnas utan ett värde kan transaktionsdata gå förlorade. Tilldela ett värde till <span class="codeph"> ev_transid=</span> eller ta bort parametern från pixeln. </p> </td> 
    </tr> 
@@ -130,7 +130,7 @@ Platform Auditor utvärderar taggarna mot andra regler och rekommenderade metodt
     <td colname="col3"> <p>Självvärdande är det rekommenderade sättet att läsa in DTM på en sida. Även om DTM-värdtjänster via Akamai CDN fungerar i de flesta fall, förbättras sidprestanda av självvärdtjänster. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>DTM - tredjepartstaggar läses in asynkront efter DOM-klart</b> </p> <p>Bredd: 1 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/resources/load-order.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
+    <td colname="col1"> <p><b>DTM - tredjepartstaggar läses in asynkront efter DOM-klart</b> </p> <p>Bredd: 3 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/resources/load-order.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
     <td colname="col2"> <p>För att skapa en balans mellan en bra användarupplevelse och insamling av korrekta data bör tredjepartstaggar aktiveras vid DOM ready. Detta säkerställer att dessa spårningsskript körs utan att webbplatsfunktionaliteten påverkas. </p> </td> 
     <td colname="col3"> <p>Lös det här problemet genom att justera alla regler som kör pixlar från tredje part som ska utlösas på DOM Ready. </p> </td> 
    </tr> 
