@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: adobe experience platform auditor
+product: auditor
 sub-product: adobe experience platform revisor
 audience: end-user
 user-guide-title: Hjälp om Experience Platform Auditor
@@ -8,7 +8,7 @@ user-guide-description: Generera en rapport över Adobe Experience Cloud-impleme
 breadcrumb-title: Handbok för plattformsgranskning
 breadcrumb-url: /docs/auditor/using/overview.html
 translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+source-git-commit: c5f155d859486320aeec497946e35b7c06a3de7d
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 10%
@@ -16,7 +16,7 @@ ht-degree: 10%
 ---
 
 
-# Hjälp om Experience Platform Auditor {#using}
+# Hjälp för Experience Platform Auditor {#using}
 
 + [Översikt](overview.md)
 + Komma igång {#get-started}
@@ -28,13 +28,13 @@ ht-degree: 10%
 + Rapporter {#reports}
    + [Styrkort](reports/scorecard.md)
    + [Hämta rapport](reports/download-report.md)
-+ Test {#tests}
++ Testa {#tests}
    + [Testreferens](tests/test-reference.md)
    + [Tagg presence](tests/test-ref-presence.md)
    + [Konsekvens för taggar](tests/test-ref-consistency.md)
    + [Konfiguration](tests/test-ref-cfg.md)
    + [Larm](tests/test-ref-alerts.md)
-   + Föregående provkrusningar{#previous-rubrics}
+   + Föregående teststreck{#previous-rubrics}
       + [Provningsrutin 1.0.1](tests/previous-rubrics/test-rubric1-0-1.md)
       + [Provningsrutin 0.0.8](tests/previous-rubrics/test-rubric1-0.md)
 + [Vanliga frågor om plattformsgranskare](auditor-faq.md)
