@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution: Experience Platform, Data Collection
 solution-title: Läs mer och support
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
@@ -11,7 +11,7 @@ tutorials-url: https://helpx.adobe.com/analytics/how-to/adobe-launch-publishing-
 git-repo: https://git.corp.adobe.com/AdobeDocs/auditor.sv-SE
 index: true
 translation-type: tm+mt
-source-git-commit: 2e674de10ad6767612d2962789daa015cbfb5946
+source-git-commit: 5dbbd05323172302682643de2e8ea867e2e186c6
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 83%
