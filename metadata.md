@@ -3,10 +3,10 @@ cloud: Experience Cloud
 solution: Data Collection
 git-repo: https://github.com/AdobeDocs/auditor.sv-SE
 hide: true
-source-git-commit: 0be9e4f542f123e4a11a66f98c960089288cc4bd
+source-git-commit: 059969f5b38ac98188ace82bb0242fce04f4466c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '111'
+ht-degree: 96%
 
 ---
 
