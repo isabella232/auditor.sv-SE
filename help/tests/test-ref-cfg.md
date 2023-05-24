@@ -1,17 +1,16 @@
 ---
 description: Den här referensen innehåller mer information om de tester som Adobe Experience Platform Auditor utför för konfiguration.
-seo-description: Den här referensen innehåller mer information om de tester som Adobe Experience Platform Auditor utför för konfiguration.
-seo-title: Konfiguration
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for configuration.
+seo-title: Configuration
 title: Konfiguration
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: e331d874-09f5-4a31-ad8c-6ee5d0849245
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '830'
 ht-degree: 5%
 
 ---
-
 
 # Konfiguration
 
@@ -33,8 +32,8 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
     <!--
       1.0.1 
     --> <p><b>Advertising Cloud - Konverteringsnamn innehåller endast alfanumeriska tecken</b> </p> <p>Bredd: 3 </p> </td> 
-   <td colname="col2"> <p>Parametern <span class="codeph"> ev_conversion_property_name</span> får bara innehålla numeriska och decimala värden EXCEPT för parametern "<span class="codeph"> ev_transid</span>" ( <span class="codeph"> värdet ev_transid</span> kan innehålla text eller numeriska värden) </p> <p>Leta efter <span class="codeph"> everesttech.net</span> -pixlar som innehåller en URL-parameter som börjar med <span class="codeph"> ev_</span>. </p> <p>Exempel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47 </span> </p> </td> 
-   <td colname="col3"> <p> Kontrollera att egenskapsparametrarna för transaktionen bara innehåller numeriska och decimala värden. </p> <p> <p>Varning:  Andra värdetyper kan orsaka dataförlust. </p> </p> </td> 
+   <td colname="col2"> <p>The <span class="codeph"> ev_conversion_property_name</span> parametern får bara innehålla numeriska och decimala värden EXCEPT för "<span class="codeph"> ev_transid</span>"-parametern ( <span class="codeph"> ev_transid</span> värdet kan innehålla text eller numeriska värden) </p> <p>Sök efter <span class="codeph"> everesttech.net</span> pixlar som innehåller en URL-parameter som börjar med <span class="codeph"> ev_</span>. </p> <p>Exempel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47 </span> </p> </td> 
+   <td colname="col3"> <p> Kontrollera att egenskapsparametrarna för transaktionen bara innehåller numeriska och decimala värden. </p> <p> <p>Varning: Andra värdetyper kan orsaka dataförlust. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -42,14 +41,14 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
       1.0.1 
     --> <p><b>Advertising Cloud - Konverteringsnamn använder URL-säkra tecken</b> </p> <p>Bredd: 3 </p> </td> 
    <td colname="col2"> <p> Namn på konverteringsegenskaper får inte innehålla ett et-tecken eller frågetecken. </p> <p> Exempel: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
-   <td colname="col3"> <p>Se till att egenskapsparametrarna för transaktioner inte innehåller ett icke-kodat et-tecken eller frågetecken. Dessa bryter URL-formatet. </p> <p> <p>Varning: Egenskapsparametrar som innehåller ett icke-kodat et-tecken eller frågetecken (till exempel: <span class="codeph"> ev_formComplete?=1</span> eller <span class="codeph"> ev_formComplete&amp;Submit=1</span>), kan resultera i dataförlust. </p> </p> </td> 
+   <td colname="col3"> <p>Se till att egenskapsparametrarna för transaktioner inte innehåller ett icke-kodat et-tecken eller frågetecken. Dessa bryter URL-formatet. </p> <p> <p>Varning: Egenskapsparametrar som innehåller ett icke-kodat et-tecken eller frågetecken (till exempel: <span class="codeph"> ev_formComplete?=1</span> eller <span class="codeph"> ev_formComplete&amp;Submit=1</span>), kan leda till dataförlust. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Advertising Cloud - Transaktions-ID har implementerats korrekt</b> </p> <p>Bredd: 3 </p> </td> 
-   <td colname="col2"> <p> Egenskapsnamnet <span class="codeph"> ev_transid=</span> får inte vara tomt. </p> <p>Exempel: </p> <p> <span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
+    --> <p><b>Advertising Cloud - Transaktions-ID har implementerats korrekt</b> </p> <p>Bredd: 1 </p> </td> 
+   <td colname="col2"> <p> Egenskapsnamnet <span class="codeph"> ev_transid=</span> får inte vara tom. </p> <p>Exempel: </p> <p> <span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>Egenskapsnamnet <span class="codeph"> ev_transid=</span> får inte lämnas utan ett värde (<span class="codeph"> ev_transid=</span>). Om detta lämnas utan ett värde kan transaktionsdata gå förlorade. Tilldela ett värde till <span class="codeph"> ev_transid=</span> eller ta bort parametern från pixeln. </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Analytics - Senaste versionen</b> </p> <p>Bredd: 1 </p> <p><a href="https://docs.adobe.com/content/help/sv-SE/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
+    --> <p><b>Analytics - Senaste versionen</b> </p> <p>Bredd: 3 </p> <p><a href="https://docs.adobe.com/content/help/sv-SE/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Ytterligare information</a> </p> </td> 
    <td colname="col2"> <p> Dina sidor kör inte den senaste versionen av kodbiblioteket för Analytics. Kodbibliotek som används av Experience Cloud-teknik uppdateras och ändras ständigt för att dra nytta av prestandaförbättringar och tillhandahålla de senaste funktionerna. Returnerar 0 när ingen analyskod finns på webbsidan. </p> </td> 
    <td colname="col3"> <p>Installera den senaste versionen av Analytics-biblioteket. </p> </td> 
   </tr> 
@@ -89,7 +88,7 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
     <!--
       1.0.1 
     --> <p><b>Experience Cloud ID-tjänst - senaste version</b> </p> <p>Bredd: 2 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p> Dina sidor kör inte den senaste versionen av kodbiblioteket för Visitor ID-tjänsten, <span class="codeph"> visitorAPI.js</span>. Kodbibliotek som används av Experience Cloud-teknik uppdateras och ändras ständigt för att dra nytta av prestandaförbättringar och tillhandahålla de senaste funktionerna. </p> </td> 
+   <td colname="col2"> <p> Dina sidor använder inte den senaste versionen av kodbiblioteket för Visitor ID-tjänsten, <span class="codeph"> visitorAPI.js</span>. Kodbibliotek som används av Experience Cloud-teknik uppdateras och ändras ständigt för att dra nytta av prestandaförbättringar och tillhandahålla de senaste funktionerna. </p> </td> 
    <td colname="col3"> <p>Installera den senaste versionen av tjänstbiblioteket för Visitor-ID. </p> </td> 
   </tr> 
   <tr> 
@@ -97,8 +96,8 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
     <!--
       1.0.1 
     --> <p><b>Launch - Senaste version</b> </p> <p>Bredd: 2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p>De här sidorna kör inte den senaste versionen av kodbiblioteket för plattformsstart (Turbine). Kodbibliotek som används av Experience Cloud-teknik uppdateras och ändras ständigt för att dra nytta av prestandaförbättringar och tillhandahålla de senaste funktionerna. </p> </td> 
-   <td colname="col3"> <p> Uppdatera plattformsstartbiblioteket genom att återskapa och publicera plattformsstartbiblioteket. </p> </td> 
+   <td colname="col2"> <p>Dessa sidor kör inte den senaste versionen av Platform launch Code Library (Turbine). Kodbibliotek som används av Experience Cloud-teknik uppdateras och ändras ständigt för att dra nytta av prestandaförbättringar och tillhandahålla de senaste funktionerna. </p> </td> 
+   <td colname="col3"> <p> Uppdatera Platforma launchen genom att återskapa och publicera Platforma launchen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -113,8 +112,8 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
     <!--
       1.0.1 
     --> <p><b>Mål - mboxDefault föregår mboxCreate </b> </p> <p>Bredd: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p>Den korrekta användningen av <span class="codeph"> mboxCreate</span> ser ut ungefär så här: </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Kundinnehåll—&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
-   <td colname="col3"> <p>Se till att du tar med en <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> -tagg innan du anropar <span class="codeph"> mboxCreate()</span>. at.js kommer inte att lägga till en åt dig. </p> </td> 
+   <td colname="col2"> <p>Att använda <span class="codeph"> mboxCreate</span> ser ut ungefär så här: </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Kundinnehåll—&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
+   <td colname="col3"> <p>Var noga med att inkludera en <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> tagg före anrop <span class="codeph"> mboxCreate()</span>. at.js kommer inte att lägga till en åt dig. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -126,4 +125,3 @@ Konfigurationstester söker efter specifika inställningar, värden eller potent
   </tr> 
  </tbody> 
 </table>
-

@@ -1,17 +1,16 @@
 ---
 description: När du har kört ett test visar styrkortet information om en granskning.
-seo-description: När du har kört ett test visar styrkortet information om en granskning.
-seo-title: Styrkort
+seo-description: After you run a test, the scorecard shows information about an audit.
+seo-title: Scorecard
 title: Styrkort
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 3%
+source-wordcount: '414'
+ht-degree: 4%
 
 ---
-
 
 # Styrkort{#scorecard}
 
@@ -46,9 +45,9 @@ Din poäng beror på vikten av varje test och om du godkänns eller inte. Om du 
 * 4: Fel innebär att du kanske samlar in otillförlitliga data.
 * 5: Fel innebär att du kan se dataförlust.
 
-Styrkortet visar alla problem på nivå 4 eller 5 som du **rekommenderar** att du åtgärdar.
+Styrkortet visar alla problem på nivå 4 eller 5 som **rekommenderas** som du fixar.
 
-Styrkortet visar alla problem på nivå 1 till 3 som **rekommenderas** att du åtgärdar.
+Styrkortet visar alla problem på nivå 1 till 3 som **rekommenderas** som du fixar.
 
 Klicka på **[!UICONTROL Download the Report]** för att ladda ned en - eller PDF-fil som innehåller den information som granskaren rapporterat.[!DNL Excel]
 
@@ -62,4 +61,4 @@ Klicka på kategorierna längst upp på skärmen för att se problemen i varje k
 
 Du kan visa listor över de URL:er som har godkänts eller misslyckats i testet.
 
-Klicka på ett testnamn eller på **[!UICONTROL See All]** länken under varje kategorirubrik i styrkortet. Detta tar dig till detaljerna av testerna. För varje test kan du se testbeskrivningen och en lista över alla URL:er som har misslyckats och godkänts. Den här informationen ingår även i hämtade rapporter.
+Klicka på ett testnamn eller på **[!UICONTROL See All]** under varje kategorirubrik. Detta tar dig till detaljerna av testerna. För varje test kan du se testbeskrivningen och en lista över alla URL:er som har misslyckats och godkänts. Den här informationen ingår även i hämtade rapporter.

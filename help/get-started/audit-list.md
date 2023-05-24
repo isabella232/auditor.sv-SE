@@ -1,17 +1,16 @@
 ---
 description: På sidan Granskningslista visas information om alla granskningar.
-seo-description: På sidan Granskningslista visas information om alla granskningar.
-seo-title: Sida för granskningslista
+seo-description: The Audit List page shows information about all of your audits.
+seo-title: Audit List page
 title: Sida för granskningslista
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 2ba22dc7-f296-461e-90d4-1cb330bcde24
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '216'
 ht-degree: 1%
 
 ---
-
 
 # Sida för granskningslista{#audit-list-page}
 
@@ -32,7 +31,7 @@ I listvyn visas följande information för alla granskningar.
 | Poäng | Granskningar utvärderas från 1 till 100, vilket innebär att det inte finns några problem med de skannade sidorna |
 | Status | Visar när granskningen slutfördes eller att den bearbetas |
 | Begärande | Visar namnet på den användare som skapade granskningen |
-| Åtgärder | Tillhandahåller länkar för att kopiera eller köra om granskningen, avbryta en granskning som körs, hämta en rapport som ett [!DNL Excel] kalkylblad eller ta bort granskningen |
+| Instruktioner | Tillhandahåller länkar för att kopiera eller köra om granskningen, avbryta en granskning som körs, hämta en rapport som en [!DNL Excel] kalkylblad eller ta bort granskningen |
 
 Klicka på granskningens namn för att visa granskningsresultaten.
 
@@ -42,6 +41,6 @@ Kortvyn visar varje granskning i ett grafiskt format.
 
 ![](assets/card.png)
 
-Klicka på granskningens namn för att visa granskningsresultaten. Klicka på menyn bredvid namnet för att se länkar för kopiering, omkörning eller avbrytande av granskningen, eller för att ladda ned en färdig rapport som ett [!DNL Excel] kalkylblad eller PDF.
+Klicka på granskningens namn för att visa granskningsresultaten. Klicka på menyn bredvid namnet för att se länkar för kopiering, omstart eller avbrytande av granskningen, eller för att hämta en färdig rapport som en [!DNL Excel] kalkylblad eller PDF.
 
 ![](assets/card-menu.png)

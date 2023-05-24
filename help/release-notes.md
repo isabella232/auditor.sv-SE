@@ -1,21 +1,20 @@
 ---
 description: Versionsinformation för Adobe Experience Platform Auditor
-seo-description: Versionsinformation för Adobe Experience Platform Auditor
-seo-title: Versionsinformation om Adobe Experience Platform Auditor
+seo-description: Adobe Experience Platform Auditor Release Notes
+seo-title: Adobe Experience Platform Auditor release notes
 title: Versionsinformation om Adobe Experience Platform Auditor
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 7c8c55ed-6211-446b-9182-2e9b49dd117d
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '446'
+ht-degree: 2%
 
 ---
 
-
 # Versionsinformation om Adobe Experience Platform Auditor{#auditor-release-notes}
 
-## February 5, 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
+## 5 februari 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
 
 **Förbättring**
 
@@ -25,19 +24,19 @@ Det högsta antalet sidor som tillåts i en skanning har ökats från 100 till 5
 >
 >På grund av den här ökningen är den tid som krävs för att slutföra en skanning längre. I vissa fall kan det ta upp till 48 timmar att slutföra en 500-sidig skanning.
 
-## November 2, 2018 {#section-542a32872efa445dab688285bf87964b}
+## 2 november 2018 {#section-542a32872efa445dab688285bf87964b}
 
 **Nya funktioner**
 
 Du kan nu avbryta en granskning som körs från sidan Platsgranskare, kortvyn eller när du försöker skapa en ny granskning.
 
-## June 4, 2018 {#section-0747f36a1f4f46638b2c6bf182de9864}
+## 4 juni 2018 {#section-0747f36a1f4f46638b2c6bf182de9864}
 
 **Nya funktioner**
 
 * Användare kan nu ta bort slutförda granskningar från listvyn, panelvyn och granskningsvyn
 * Granskningsinställningar ingår nu som en del av XLSX-hämtningar
-* Lagt till spårning av rubricerad version i PDF-rapporten
+* Spårning av rubricerad version har lagts till i PDF-rapporten
 * Förbättrade meddelanden när en granskning bara skannar en sida
 * Länk har lagts till för att visa fullständig rapport från Excel-nedladdningssidan
 
@@ -45,7 +44,7 @@ Du kan nu avbryta en granskning som körs från sidan Platsgranskare, kortvyn el
 
 Kontrollera att administrationslänken visas i skalet när en användare är administratör för IMS-organisationen
 
-## May 17, 2018 {#section-b72792e4e6ad4bd9910f48767704e204}
+## 17 maj 2018 {#section-b72792e4e6ad4bd9910f48767704e204}
 
 **Nya funktioner**
 
@@ -65,9 +64,9 @@ Plattformsgranskare betygsätter Adobe Experience Cloud implementeringar och rek
 
 Med Platform Auditor kan ni
 
-* **Skanna** in 100 webbsidor i taget för att hitta Adobe. Använd avancerade filter för att inkludera eller exkludera sidor efter behov. Du kan köra en granskning i taget och ett obegränsat antal granskningar.
+* **Skanna** Skanna in 100 webbsidor i taget för att hitta Adobe. Använd avancerade filter för att inkludera eller exkludera sidor efter behov. Du kan köra en granskning i taget och ett obegränsat antal granskningar.
 
-* **Förstå** Ta emot en rapport som räknar ut dina Adobe-implementeringar baserat på taggnärvaro, konfiguration och konsekvens.
+* **Förstå** Få en rapport som räknar ut dina Adobe-implementeringar baserat på taggnärvaro, konfiguration och konsekvens.
 
 * **Förbättra** Få rekommendationer om hur ni ska uppgradera er implementering och få ut maximalt av er investering i Adobe. Platform Auditor berättar exakt hur en implementering kan förbättras, visar webbsidan där problemet uppstod och ger sedan vägledning om hur den kan åtgärdas.
 

@@ -1,14 +1,13 @@
 ---
 description: Adobe Experience Platform Auditor är en tjänst inom Adobe Experience Platform som utvecklats i samarbete med ObservePoint, experter på validering av digitala implementeringar.
-seo-description: Adobe Experience Platform Auditor är en tjänst inom Adobe Experience Platform som utvecklats i samarbete med ObservePoint, experter på validering av digitala implementeringar.
+seo-description: Adobe Experience Platform Auditor is a service of the Adobe Experience Platform that was co-developed with ObservePoint, experts in validating digital implementations.
 seo-title: Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 1%
+source-wordcount: '399'
+ht-degree: 2%
 
 ---
 
@@ -21,13 +20,13 @@ Med Platform Auditor får Adobe Experience Cloud-användare en rapport som betyg
 
 Med Platform Auditor kan ni
 
-* **Skanna** in 500 webbsidor i taget för Adobe-teknik. Använd avancerade filter för att inkludera eller exkludera sidor efter behov. Du kan köra en granskning i taget och ett obegränsat antal granskningar.
+* **Skanna** Sök igenom 500 webbsidor i taget efter Adobe-teknik. Använd avancerade filter för att inkludera eller exkludera sidor efter behov. Du kan köra en granskning i taget och ett obegränsat antal granskningar.
 
-* **Förstå** Ta emot en rapport som räknar ut dina Adobe-implementeringar baserat på taggnärvaro, konfiguration och konsekvens.
+* **Förstå** Få en rapport som räknar ut dina Adobe-implementeringar baserat på taggnärvaro, konfiguration och konsekvens.
 
-* **Förbättra** Få rekommendationer om hur ni ska uppgradera implementeringen i linje med bästa praxis så att ni får ut maximalt av er investering i Adobe. Platform Auditor går längre än vanliga rekommendationer och ger dig exakt information om vad som är fel med en viss implementering, webbsidan där problemet uppstod och ger sedan vägledning om hur du åtgärdar det.
+* **Förbättra** Få rekommendationer om hur ni ska uppgradera er implementering så att den överensstämmer med bästa praxis så att ni får ut maximalt av er investering i Adobe. Platform Auditor går längre än vanliga rekommendationer och ger dig exakt information om vad som är fel med en viss implementering, webbsidan där problemet uppstod och ger sedan vägledning om hur du åtgärdar det.
 
-För att er webbplats effektivt ska kunna skapa tillväxt och leverera fantastiska upplevelser måste den implementeras på rätt sätt. Annars kommer programmet antingen att leverera en bråkdel av sitt potentiella värde, eller ingenting alls.
+För att er webbplats ska bli effektivare och leverera fantastiska upplevelser måste den implementeras på rätt sätt. Annars kommer programmet antingen att leverera en bråkdel av sitt potentiella värde, eller ingenting alls.
 
 Men det är en tung börda att ha invecklade implementeringar på webbplatser i ett ständigt flöde. Platform Auditor förvandlar denna börda till en möjlighet som ökar avkastningen på er investering i Adobe.
 
@@ -37,8 +36,8 @@ Platform Auditor har utvecklats som en samarbetsinsats mellan Adobe och ObserveP
 
 ## Community-forum för plattformsgranskare {#section-59846f1856bc40aba23d02fdd9198e25}
 
-Om du behöver hjälp med att komma igång, har frågor eller vill föreslå eller rösta om framtida förbättringar kan du gå till forumet [för](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor) plattformsgranskare och få kontakt med experter och Adobe.
+Om du behöver hjälp med att komma igång, har frågor eller vill föreslå eller rösta om kommande förbättringar kan du gå till [Community-forum för plattformsgranskare](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor) för att få kontakt med experter och Adobe.
 
 ## Versionsinformation {#section-be3e331a123d40f185aa59f23f69355e}
 
-Information om den senaste versionen finns i [Versionsinformation](release-notes.md)för Platform Auditor.
+Mer information om den senaste versionen finns i [Versionsinformation om plattformsgranskare](release-notes.md).

@@ -1,17 +1,16 @@
 ---
 description: Skapa en ny revision i Adobe Experience Platform Auditor
-seo-description: Skapa en ny revision i Adobe Experience Platform Auditor
-seo-title: Skapa en ny revision i Adobe Experience Platform Auditor
+seo-description: Create a new audit in Adobe Experience Platform Auditor
+seo-title: Create a new audit in Adobe Experience Platform Auditor
 title: Skapa en ny revision i Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 1c4eed8e-4d49-49af-95c5-df13c9f13e4a
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en ny granskning{#create-a-new-audit}
 
@@ -23,7 +22,7 @@ Om du vill kan du använda länken längst ned på sidan för att få tillgång 
 
 1. Klicka på i listan Granskare **[!UICONTROL New Audit]**.
 
-   Skärmen [!DNL New Audit] öppnas.
+   The [!DNL New Audit] visas.
 
    ![](assets/config.png)
 
@@ -32,7 +31,7 @@ Om du vill kan du använda länken längst ned på sidan för att få tillgång 
    Namnet kan innehålla upp till 250 tecken.
 1. (Obligatoriskt) Ange den inledande URL:en.
 
-   Protokollet krävs när du anger den första URL:en. Den första URL:en är den sida där granskningen börjar crawla. När Adobe Experience Platform Auditor väl har startat crawlas upp till 500 sidor efter länkar som börjar på startwebbadressen. Mer information finns i [Inkludera och exkludera filter](../create-audit/filters.md) . Start-URL:en kan innehålla upp till 250 tecken.
+   Protokollet krävs när du anger den första URL:en. Den första URL:en är den sida där granskningen börjar crawla. När Adobe Experience Platform Auditor väl har startat crawlas upp till 500 sidor efter länkar som börjar på startwebbadressen. Se [Inkludera och exkludera filter](../create-audit/filters.md) för mer information. Start-URL:en kan innehålla upp till 250 tecken.
 
    >[!NOTE]
    >
@@ -46,7 +45,7 @@ Om du vill kan du använda länken längst ned på sidan för att få tillgång 
 
 1. Ange [!UICONTROL Include Filters].
 
-   Det här fältet kan innehålla exakta URL:er, partiella URL:er eller reguljära uttryck. Använd det här fältet för kriterier som du vill att alla URL:er ska matcha. Alla crawlade URL:er som inte uppfyller villkoren [!UICONTROL Include Filter] inkluderas inte i granskningsresultaten.
+   Det här fältet kan innehålla exakta URL:er, partiella URL:er eller reguljära uttryck. Använd det här fältet för kriterier som du vill att alla URL:er ska matcha. Alla crawlade URL:er som inte matchar [!UICONTROL Include Filter] kriterier ingår inte i granskningsresultaten.
 
    Du kan ange kataloger som du vill att granskningen ska söka igenom. Eller så kan du utföra granskning över domäner eller självrefererande, där du måste starta granskningen på en domän och avsluta på en annan. Skriv in de domäner du vill gå igenom; för komplexa URL-mönster, använd ett reguljärt uttryck.
 
@@ -56,16 +55,16 @@ Om du vill kan du använda länken längst ned på sidan för att få tillgång 
 
    Inkluderingsfiltren får innehålla högst 1 000 tecken per rad.
 
-   Mer information finns i [Inkludera lista](../create-audit/filters.md) .
+   Se [Inkludera lista](../create-audit/filters.md) för mer information.
 1. Ange Exkludera filter.
 
-   Detta [!UICONTROL Exclude List] förhindrar att URL:er granskas. Använd exakta URL:er, partiella URL:er eller reguljära uttryck, precis som i [!UICONTROL Include List]dialogrutan.
+   The [!UICONTROL Exclude List] förhindrar att URL:er granskas. Använd exakta URL:er, partiella URL:er eller reguljära uttryck, precis som i [!UICONTROL Include List].
 
    En vanlig metod är att utesluta en utloggningslänk om granskningen har en användarsession (till exempel: `/logout`, vilket innebär en URL som innehåller strängen `/logout`).
 
    Exkluderingsfiltren är begränsade till 1 000 tecken per rad.
 
-   Mer information finns i [Uteslut lista](../create-audit/filters.md) .
+   Se [Uteslut lista](../create-audit/filters.md) för mer information.
 1. (Valfritt) Om du vill kan du testa filtren include och exclude och testa dina URL:er.
 
    Ange filter och URL:er och klicka sedan på **[!UICONTROL Apply]** för att köra testet.

@@ -1,17 +1,16 @@
 ---
 description: Kom igång med Adobe Experience Platform Auditor
-seo-description: Kom igång med Adobe Experience Platform Auditor
-seo-title: Komma igång
+seo-description: Get started with Adobe Experience Platform Auditor
+seo-title: Getting started
 title: Komma igång
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 597413c9-8725-4745-bd89-cdc52848b0a0
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '226'
 ht-degree: 11%
 
 ---
-
 
 # Komma igång{#getting-started}
 
@@ -21,7 +20,7 @@ ht-degree: 11%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-Första gången du använder [!DNL Adobe Experience Platform Auditor]måste du slutföra och godkänna [!DNL Platform Auditor] avtalet. [!DNL Platform Auditor] har utvecklats som en samarbetsinsats mellan [!DNL Adobe] och [!DNL ObservePoint]. Användare av plattformsgranskare kan använda begränsad ObservePoint-funktionalitet utan extra kostnad. Om du vill använda plattformsgranskaren måste du välja att få kommunicera från ObservePoint.
+Första gången du använder [!DNL Adobe Experience Platform Auditor]måste du fylla i och godkänna [!DNL Platform Auditor] avtal. [!DNL Platform Auditor] har utvecklats som en samarbetsinsats mellan [!DNL Adobe] och [!DNL ObservePoint]. Användare av plattformsgranskare kan använda begränsad ObservePoint-funktionalitet utan extra kostnad. Om du vill använda plattformsgranskaren måste du välja att få kommunicera från ObservePoint.
 
 ## Kör din första sökning {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,7 +28,7 @@ Första gången du använder [!DNL Adobe Experience Platform Auditor]måste du s
 
    ![](assets/activate.png)
 
-1. Välj **[!UICONTROL Auditor]** och godkänn användningsvillkoren.
+1. Välj **[!UICONTROL Auditor]** och godkänner användarvillkoren.
 
    På sidan Platform Auditor får du en kontrollpanel med tidigare sökningar tillsammans med alternativet att köra en ny skanning.
 
@@ -37,7 +36,7 @@ Första gången du använder [!DNL Adobe Experience Platform Auditor]måste du s
 
 1. Klicka på **[!UICONTROL New Audit]**.
 
-   Om du vill köra en ny skanning klickar du **[!UICONTROL New Audit]** i skärmens övre högra hörn.
+   Klicka på **[!UICONTROL New Audit]** i skärmens övre högra hörn.
 
    ![](assets/new-audit-button.png)
 
@@ -50,8 +49,8 @@ Första gången du använder [!DNL Adobe Experience Platform Auditor]måste du s
    En beskrivning av alla konfigurationsalternativ finns i [Skapa en ny granskning](../create-audit/create-new-audit.md).
 1. Visa din rapport.
 
-   När du får e-postmeddelandet som talar om att sökningen är klar klickar du på länken för att [visa rapporten](../reports/scorecard.md) och börja förstå möjligheterna att förbättra implementeringen och få ut mer av Adobe-lösningarna.
+   När du får ett e-postmeddelande med information om att sökningen är klar klickar du på länken för att [visa din rapport](../reports/scorecard.md) och börja förstå möjligheterna att förbättra implementeringen och få ut mer av era Adobe-lösningar.
 
-   Du kan också klicka på granskningens namn på [revisionssidan](../get-started/audit-list.md) för att visa granskningens status och för att visa rapporten när granskningen är klar.
+   Du kan också klicka på granskningens namn i dialogrutan [Granskningssida](../get-started/audit-list.md) för att se granskningens status och för att visa rapporten när granskningen är klar.
 
    ![](assets/report.png)

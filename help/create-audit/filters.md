@@ -1,17 +1,16 @@
 ---
 description: Inkludera filter begränsar vilka länkar en granskning kan crawla från Start-URL:en. Undanta filter förhindrar att en granskning crawlar länkar.
-seo-description: Inkludera filter begränsar vilka länkar en granskning kan crawla från Start-URL:en. Undanta filter förhindrar att en granskning crawlar länkar.
-seo-title: Inkludera och exkludera filter
+seo-description: Include filters restrict what links an audit can crawl from the Starting URL. Exclude filters prevent an audit from crawling links.
+seo-title: Include and Exclude filters
 title: Inkludera och exkludera filter
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
-
 
 # Inkludera och exkludera filter{#include-and-exclude-filters}
 
@@ -27,25 +26,25 @@ Inkludera filter och Uteslut filter ger riktlinjer för revisioner. Genom att l�
 
 Genom att använda Inkludera filter, Uteslut filter eller en kombination av båda, får du instruktioner om vilka länkar en granskning kan crawla.
 
-Alla objekt i [!UICONTROL Include Filters] fältet begränsar sökningen till de sidor som matchar det objektet. Alla objekt i ett [!UICONTROL Exclude Filters] fält förhindrar att sidor som matchar det objektet skannas.
+Alla objekt i [!UICONTROL Include Filters] inläsningen begränsas av fältet till endast de sidor som matchar det objektet. Alla objekt i en [!UICONTROL Exclude Filters] -fältet förhindrar att sidor som matchar det objektet skannas.
 
 Filtren Inkludera och Uteslut kan vara fullständiga URL:er, partiella URL:er eller reguljära uttryck som matchar en giltig sida.
 
 ## Prioritetsordning {#section-e9d42419dd3f459bb20e7a33c6104f12}
 
-1. **Start-URL** har företräde framför allt annat och kommer alltid att besökas under en granskning, även om en URL matchar ett objekt i Uteslut-filtret. Start-URL:en besöks alltid före andra URL:er.
+1. **Startar URL** har företräde framför allt annat och kommer alltid att besökas under en granskning, även om en URL matchar ett objekt i Uteslut-filtret. Start-URL:en besöks alltid före andra URL:er.
 
    ![](assets/startingpage.png)
 
-   I bilden ovan upptäcker en granskning länkar från startsidans `document.links` egenskap. Länkarna kan skannas av granskningen.
+   I bilden ovan upptäcker en granskning länkar från startsidans `document.links` -egenskap. Länkarna kan skannas av granskningen.
 
-1. **Inkludera URL-adresser** måste länkas från en startsida, annars kan de inte identifieras och kommer inte att besökas.
+1. **Inkludera URL:er** måste länkas från en startsida, annars kan de inte identifieras och kommer inte att besökas.
 
    ![](assets/includefilter.png)
 
-   Om du lägger till ett Include-filter i bilden ovan begränsas de URL:er som är giltiga till dem som matchar filtret. Nu kan bara fem länkar skannas av granskningen.
+   Om du lägger till ett Include-filter i bilden ovan begränsas de URL:er som är giltiga till de som matchar filtret. Nu kan bara fem länkar skannas av granskningen.
 
-1. **Uteslut URL:er** som eliminerar länkar från berättigande.
+1. **Uteslut URL:er** ta bort länkar från berättigandet.
 
    ![](assets/excludefilter.png)
 
@@ -78,7 +77,7 @@ Detta gör att alla länkar på startwebbsidan kan besökas. Den matchar alla si
 
 Standardfiltret Inkludera ger ett brett intervall för en granskning som ska crawlas. Om du vill gå till vissa avsnitt eller sidor anger du specifika anvisningar för granskningen genom att lägga till filter i den här rutan. I så fall ska du ersätta standardvärdet med de kataloger som du vill att granskningen ska söka igenom. Du kan också använda Inkludera filter för att utföra domänövergripande granskning där du måste starta granskningen på en domän och avsluta på en annan. Skriv in de domäner du vill gå igenom. För att du ska kunna hitta eventuella inkluderingsfilter-URL:er måste de identifieras på en reviderad sida.
 
-Filtren Include kan innehålla exakta URL:er, partiella URL:er eller reguljära uttryck. Om till exempel den inledande URL:en är [!DNL http://mysite.com]kan följande sidor skannas som standard (observera de feta tecknen):
+Filtren Include kan innehålla exakta URL:er, partiella URL:er eller reguljära uttryck. Om till exempel den inledande URL:en är [!DNL http://mysite.com], kan följande sidor skannas som standard (observera feta tecken):
 
 ```html
 http://mysite.com
@@ -92,7 +91,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-För komplexa URL-mönster använder du [objektets reguljära uttrycksprovare](https://regex.observepoint.com/).
+Använd för komplexa URL-mönster [ObservePoints reguljära uttrycksprovare](https://regex.observepoint.com/).
 
 ## Uteslut filter {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -102,10 +101,10 @@ Filtren Uteslut förhindrar att URL:er granskas. Du kan använda exakta URL:er, 
 
 Du kan testa dina filter och URL:er i plattformsgranskaren.
 
-Klicka på **[!UICONTROL Test Advanced Filters]** när du skapar granskningen. Ange filter och URL:er och klicka sedan på **[!UICONTROL Apply]**.
+Klicka på **[!UICONTROL Test Advanced Filters]**. Ange filter och URL:er och klicka sedan på **[!UICONTROL Apply]**.
 
 ![](assets/test-advanced-filters.png)
 
 ## ObservePoint-dokumentation {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-Den här artikeln har utvecklats i samarbete med ObservePoint. Den senaste informationen finns i dokumentationen [för]ObservePoint (https://help.observepoint.com/).
+Den här artikeln har utvecklats i samarbete med ObservePoint. Den senaste informationen finns i [ObservePoint-dokumentation](https://help.observepoint.com/.

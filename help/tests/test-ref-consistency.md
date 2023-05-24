@@ -1,17 +1,16 @@
 ---
 description: Den här referensen ger mer information om de tester som Adobe Experience Platform Auditor utför för att få en enhetlig tagg.
-seo-description: Den här referensen ger mer information om de tester som Adobe Experience Platform Auditor utför för att få en enhetlig tagg.
-seo-title: Konsekvens för taggar
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag consistency.
+seo-title: Tag consistency
 title: Konsekvens för taggar
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 681cf2f8-e022-4fb0-a06a-b4986710f501
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 8%
+source-wordcount: '105'
+ht-degree: 10%
 
 ---
-
 
 # Konsekvens för taggar
 

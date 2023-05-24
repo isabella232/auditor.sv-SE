@@ -1,17 +1,16 @@
 ---
 description: Vanliga frågor och svar om Adobe Experience Platform Auditor
-seo-description: Vanliga frågor och svar om Adobe Experience Platform Auditor
-seo-title: Vanliga frågor om Adobe Experience Platform Auditor
+seo-description: Common questions and answers about Adobe Experience Platform Auditor
+seo-title: Adobe Experience Platform Auditor FAQ
 title: Vanliga frågor om Adobe Experience Platform Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 75ab4497-5822-4f64-9b6d-6cbf13687e8d
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '973'
 ht-degree: 3%
 
 ---
-
 
 # Vanliga frågor om Adobe Experience Platform Auditor{#auditor-faq}
 
@@ -41,7 +40,7 @@ Alla Adobe Experience Cloud kundorganisationer har kostnadsfri tillgång till Pl
 
 ## Hur får jag åtkomst till Platform Auditor? {#section-531ff85f94384831a89cbb4109549daf}
 
-After logging in at [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com), you can find Platform Auditor by clicking on **[!UICONTROL Activation]** in the top navigation. Du kan också gå direkt till [https://auditor.adobe.com](https://auditor.adobe.com).
+Efter inloggning på [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com)hittar du plattformsgranskare genom att klicka på **[!UICONTROL Activation]** i den övre navigeringen. Du kan också gå direkt till [https://auditor.adobe.com](https://auditor.adobe.com).
 
 ## Vilka Adobe-tekniker betygsätter Platform Auditor? {#section-52833b71c05448aaae508e6070a387f5}
 
@@ -50,7 +49,7 @@ After logging in at [https://experiencecloud.adobe.com](https://experiencecloud.
 * Analytics 
 * DTM
 * Experience Cloud ID-tjänst (tidigare Marketing Cloud ID-tjänst)
-* Målgrupp
+* Target
 
 Följande Adobe-lösningar ingår för närvarande inte i testmomentet. Stöd för dessa lösningar planeras för framtida uppdateringar.
 
@@ -69,7 +68,7 @@ ObservePoint-tekniken crawlar för närvarande URL:er som finns i dokumentlänka
 
 ## Hur föreslår jag nya kriterier för plattformsgranskningstester? {#section-926e6ef9225b4f0bb19c2927d634cd77}
 
-You can submit test suggestions via the Platform Auditor Community by clicking **[!UICONTROL Share Feedback]** on this page: [https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)
+Du kan skicka in testförslag via Platform Auditor Community genom att klicka på **[!UICONTROL Share Feedback]** på den här sidan: [https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)
 
 ## Hur lång tid tar en revision? {#section-5086ae27ef1f4671a9d951348654633a}
 
@@ -120,14 +119,14 @@ Alla rekommendationer som ges via Platform Auditor är avsedda att hjälpa dig a
 <table id="table_EE67775088344BDAA5126268072D6089"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>pageBottom callback last</b> </p> <p>Funktionen _satellit.pageBottom() krävs för en korrekt DTM-implementering. Lägg till det infogade skriptet omedelbart före den avslutande &lt;/body&gt;-taggen för att säkerställa korrekt DTM-funktionalitet. </p> </td> 
+   <td colname="col1"> <p><b>pageBottom callback last</b> </p> <p>Funktionen _satellit.pageBottom() krävs för en korrekt DTM-implementering. Lägg till det infogade skriptet omedelbart före stängningen &lt;/body&gt; -tagg för att säkerställa korrekt DTM-funktionalitet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Kan plattformsrevisor granska icke-Adobe-teknik? {#section-f6e73c56083b4815bbf901296038bcd4}
 
-Nej. Med ObservePoints fulla erbjudande kan kunderna dock granska och övervaka alla era marknadsföringstaggar och tekniker. Som Adobe-kund har du tillgång till ett kostnadsfritt provkonto. Gå till [ObservePoints Platform Auditor Page](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium)för att få tillgång till ditt testkonto.
+Nej. Med ObservePoints fulla erbjudande kan kunderna dock granska och övervaka alla era marknadsföringstaggar och tekniker. Som Adobe-kund har du tillgång till ett kostnadsfritt provkonto. Gå till ditt testkonto [ObservePoint’s Platform Auditor Page](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
 ## Kan jag godkänna mina IP-adresser för att tillåta skanning av sidor som skyddas av inloggning? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
@@ -137,4 +136,4 @@ Den här funktionen stöds för närvarande inte utan det fullständiga ObserveP
 
 Crawlningen utförs av ObservePoint, så samma IP-adresser används.
 
-Mer information finns i dokumentationen [för](https://help.observepoint.com/articles/2312494-observepoint-whitelisting-and-proxy-list) ObservePoint.
+Se [ObservePoint-dokumentation](https://help.observepoint.com/articles/2312494-observepoint-whitelisting-and-proxy-list) för mer information.

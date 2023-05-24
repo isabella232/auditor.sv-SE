@@ -1,17 +1,16 @@
 ---
 description: Den här referensen innehåller mer information om de aviseringar som visas i Adobe Experience Platform Auditor för tester.
-seo-description: Den här referensen innehåller mer information om de aviseringar som visas i Adobe Experience Platform Auditor för tester.
-seo-title: Larm
+seo-description: This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests.
+seo-title: Alerts
 title: Larm
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '920'
 ht-degree: 1%
 
 ---
-
 
 # Larm{#alerts}
 
@@ -33,7 +32,7 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
     <!--
       1.0.1 
     --> <p><b>Advertising Cloud - Korrigera konverteringstagg har implementerats</b> </p> <p>Bredd: 0 </p> </td> 
-   <td colname="col2"> <p>Kontrollera om rätt konverteringstagg används. </p> <p> <p>Varning:  Om du använder de föråldrade konverteringstaggarna för TubeMogul kan data gå förlorade. </p> </p> </td> 
+   <td colname="col2"> <p>Kontrollera om rätt konverteringstagg används. </p> <p> <p>Varning: Om du använder de föråldrade konverteringstaggarna för TubeMogul kan data gå förlorade. </p> </p> </td> 
    <td colname="col3"> <p>Uppgradera dina konverteringspixlar till de nya konverteringstaggarna för Advertising Cloud-bilder. </p> <p>Detta kan du enkelt göra med Advertising Cloud-tillägget för Adobe Experience Platform Launch. </p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +41,7 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
       1.0.1 
     --> <p><b>Advertising Cloud - Korrigera JS-tagg som används</b> </p> <p>Bredd: 0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud bör använda de senaste JavaScript-taggarna. </p> </td> 
-   <td colname="col3"> <p>Uppgradera Advertising Cloud JavaScript till den senaste versionen. Om du använder de inaktuella JavaScript-versionerna kan du förlora funktioner. </p> <p>Detta kan göras enklare genom att använda Advertising Cloud-tillägget för Platform Launch. </p> </td> 
+   <td colname="col3"> <p>Uppgradera Advertising Cloud JavaScript till den senaste versionen. Om du använder de inaktuella JavaScript-versionerna kan du förlora funktioner. </p> <p>Detta kan göras enklare med Advertising Cloud för Platform launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -51,19 +50,19 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
     --> <p><b>Advertising Cloud - Tagg för endast bild</b> </p> <p>Bredd: 0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud bildpixelformat bör matcha något av följande rekommenderade format: </p> <p> 
      <ul id="ul_D85BE9C8A8654DE890E1A814E3573D86"> 
-      <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph"> /rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-      <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> /rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-      <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> /pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
+      <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph"> /rtd.tubemogul.com/upi/?sid=&lt;hash_value&gt;</span> </p> </li> 
+      <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> /rtd-tm.everesttech.net/upi/?sid=&lt;hash_value&gt;</span> </p> </li> 
+      <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;numeric_id&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Uppgradera dina Advertising Cloud-pixlar till de nya Advertising Cloud-taggar som säkerställer att du utnyttjar alla funktioner i Advertising Cloud. </p> <p>Det är enklast att göra med Advertising Cloud-tillägget för Platform Launch. </p> </td> 
+   <td colname="col3"> <p>Uppgradera dina Advertising Cloud-pixlar till de nya Advertising Cloud-taggar som säkerställer att du utnyttjar alla funktioner i Advertising Cloud. </p> <p>Det är enklast att göra med Advertising Cloud-tillägget för Platform launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Advertising Cloud - Synkronisering av pixlar DSP segment aktiverat</b> </p> <p>Bredd: 0 </p> </td> 
-   <td colname="col2"> <p>Kontrollera om TubeMogul-segmentpixeln innehåller en DSP synkroniseringsinställning och rekommendera att inställningen läggs till i pixeln. </p> <p>Inställningen DSP synkronisering bestäms av användningen av en frågesträngsparameter, så </p> <p>OM taggen skickas till<span class="codeph"> ("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;")</span> </p> <p> ELLER <span class="codeph"> "/rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> ELLER <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>OCH taggen innehåller URL-parametern <span class="codeph"> "sid=")</span> </p> <p>Kontrollera sedan om URL-parametern <span class="codeph"> "cs=0"</span> eller<span class="codeph"> "cs=1"</span> finns och om den inte rekommenderar att <span class="codeph"> "cs=1"</span> läggs till i pixlarna så att målgruppens matchningsfrekvens kan förbättras. </p> </td> 
-   <td colname="col3"> <p> Lägg till URL-parametern <span class="codeph"> "cs=1"</span> i dina Advertising Cloud-pixlar så att DSP kan synkroniseras, vilket ökar målgruppsmatchningen. </p> <p>Det är enklast att göra detta med Advertising Cloud-tillägget för Platform Launch. </p> </td> 
+   <td colname="col2"> <p>Kontrollera om TubeMogul-segmentpixeln innehåller en DSP synkroniseringsinställning och rekommendera att inställningen läggs till i pixeln. </p> <p>Inställningen DSP synkronisering bestäms av användningen av en frågesträngsparameter, så </p> <p>Om taggen skickas till<span class="codeph"> ("https://rtd.tubemogul.com/upi/?sid=&lt;hash_value&gt;"</span> </p> <p> ELLER <span class="codeph"> "/rtd-tm.everesttech.net/upi/?sid=&lt;hash_value&gt;"</span> </p> <p> ELLER <span class="codeph"> "/pixel.everesttech.net/px2/&lt;numeric_id&gt;?"</span> </p> <p>OCH taggen innehåller URL-parametern <span class="codeph"> "sid=")</span> </p> <p>Kontrollera sedan om URL-parametern <span class="codeph"> "cs=0"</span> eller<span class="codeph"> "cs=1"</span> finns, och om det inte rekommenderas att <span class="codeph"> "cs=1"</span> läggas till i dessa pixlar så att målgruppens matchningsfrekvens kan förbättras. </p> </td> 
+   <td colname="col3"> <p> Lägg till URL-parametern <span class="codeph"> "cs=1"</span> till dina Advertising Cloud-pixlar så att DSP kan synkroniseras, vilket ökar målgruppernas matchningsfrekvens. </p> <p>Det är enklast att göra detta med Advertising Cloud-tillägget för Platform launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -73,8 +72,8 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
     <!--
       TEa9df69942f404055a64262889c8b21d3 
     --> </td> 
-   <td colname="col2"> <p>Dynamisk tagghantering kräver funktionen <span class="codeph"> _satellit.pageBottom()</span> . Lägg till det infogade skriptet omedelbart före den avslutande <span class="codeph"> &lt;/body&gt;</span> -taggen för att säkerställa korrekt DTM-funktionalitet. </p> <p> <p>Obs! Det är bäst att använda taggen som den <i>sista</i> taggen i <span class="codeph"> &lt;body&gt;</span>. Om den hittas i <span class="codeph"> &lt;body&gt;</span> -taggen har den en chans att fungera, men eftersom det inte är en bra metod kan den fungera felaktigt eller med oväntade eller oönskade resultat. </p> </p> </td> 
-   <td colname="col3"> <p>Lägg till det infogade skriptet omedelbart före den avslutande <span class="codeph"> &lt;/body&gt;</span> -taggen för att säkerställa korrekt DTM-funktionalitet. </p> </td> 
+   <td colname="col2"> <p>Dynamic Tag Management kräver <span class="codeph"> _satellit.pageBottom()</span> funktion. Lägg till det infogade skriptet omedelbart före stängningen <span class="codeph"> &lt;/body&gt;</span> -tagg för att säkerställa korrekt DTM-funktionalitet. </p> <p> <p>Obs! Det är bäst att taggen är <i>sista</i> -taggen i <span class="codeph"> &lt;body&gt;</span>. Om den finns i <span class="codeph"> &lt;body&gt;</span> -taggen har en chans att fungera, men eftersom det inte är en bra metod kan den fungera felaktigt eller med oväntade eller oönskade resultat. </p> </p> </td> 
+   <td colname="col3"> <p>Lägg till det infogade skriptet omedelbart före stängningen <span class="codeph"> &lt;/body&gt;</span> -tagg för att säkerställa korrekt DTM-funktionalitet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -100,24 +99,24 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Platform Launch ska ha en <span class="codeph"> pageBottom- </span>callback-funktion som är sist definierad i sidans brödtext om den distribueras synkront. </p> <p> <p>Obs! Det är bäst att använda taggen som den <i>sista</i> taggen i <span class="codeph"> &lt;body&gt;</span>. Om den hittas i <span class="codeph"> &lt;body&gt;</span> -taggen har den en chans att fungera, men eftersom det inte är en bra metod kan den fungera felaktigt eller med oväntade eller oönskade resultat. </p> </p> </td> 
-   <td colname="col3"> <p>Platform Launch kräver funktionen <span class="codeph"> _satellit.pageBottom()</span> för synkrona distributioner. Lägg till det infogade skriptet omedelbart före den avslutande <span class="codeph"> &lt;/body&gt;</span> -taggen för att säkerställa rätt plattformsstartfunktion. </p> </td> 
+   <td colname="col2"> <p>platforma launchen ska ha en <span class="codeph"> pageBottom </span>callback-funktionen som definieras sist i sidans brödtext om den distribueras synkront. </p> <p> <p>Obs! Det är bäst att taggen är <i>sista</i> -taggen i <span class="codeph"> &lt;body&gt;</span>. Om den finns i <span class="codeph"> &lt;body&gt;</span> -taggen har en chans att fungera, men eftersom det inte är en bra metod kan den fungera felaktigt eller med oväntade eller oönskade resultat. </p> </p> </td> 
+   <td colname="col3"> <p>platforma launchen kräver <span class="codeph"> _satellit.pageBottom()</span> funktion för synkrona distributioner. Lägg till det infogade skriptet omedelbart före stängningen <span class="codeph"> &lt;/body&gt;</span> för att säkerställa att Platforma launchen fungerar som den ska. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch - Self-Hosted</b> </p> <p>Bredd: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Komma igång med Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> asynkron distribution av plattformsinstallation</a> </p> </td> 
-   <td colname="col2"> <p>Plattformsstartbiblioteket ligger på Adobe Akamai-instansen på <span class="filepath"> assets.adobedtm.com</span>. </p> <p>Självvärdande är det rekommenderade sättet att läsa in Platform Launch eftersom det ger bättre kontroll över webbplatsens prestanda genom cachekontroll, minskar beroenden av skript från tredje part och ger större kontroll över publiceringsprocessen. Plattformsstartbiblioteken kan lagras och hanteras via din egen webbhosting eller CDN. </p> </td> 
-   <td colname="col3"> <p>Även om hosting via Akamai CDN fungerar i de flesta fall rekommenderar vi att du implementerar självbetjäning som ett första steg i att förbättra sidans prestanda. </p> </td> 
+    --> <p><b>Launch - Self-Hosted</b> </p> <p>Bredd: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Komma igång med Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> asynkron distribution av platform launch</a> </p> </td> 
+   <td colname="col2"> <p>Platforma launchen ligger på Adobe Akamai-instansen på <span class="filepath"> assets.adobedtm.com</span>. </p> <p>Självvärdande är det rekommenderade sättet att läsa in Platform launch eftersom det ger bättre kontroll över webbplatsens prestanda genom cachekontroll, minskar beroenden av skript från tredje part och ger större kontroll över publiceringsprocessen. Platform launch-biblioteken kan lagras och hanteras via din egen webbhosting eller CDN. </p> </td> 
+   <td colname="col3"> <p>Även om värdtjänster via Akamai CDN fungerar i de flesta fall rekommenderar vi att självvärdtjänster implementeras som ett första steg för att förbättra sidprestanda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - ska distribueras asynkront</b> </p> <p>Bredd: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Ytterligare information</a> </p> </td> 
-   <td colname="col2"> <p>Plattformsuppstart ska distribueras asynkront för optimala prestanda. </p> </td> 
-   <td colname="col3"> <p>Inkludera den asynkrona parametern i det infogade skriptet för att säkerställa rätt asynkrona startfunktioner för plattformen </p> </td> 
+   <td colname="col2"> <p>platforma launchen ska distribueras asynkront för optimala prestanda. </p> </td> 
+   <td colname="col3"> <p>Inkludera parametern async i det infogade skriptet för att säkerställa korrekt funktionalitet för asynkron Platform launch </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -129,4 +128,3 @@ Varningar visar problem som du bör vara medveten om, men som inte påverkar dit
   </tr> 
  </tbody> 
 </table>
-
